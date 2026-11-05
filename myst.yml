@@ -12,24 +12,6 @@ project:
   toc:
     - file: content/index.md
 
-    - title: PT
-      children:
-        - file: content/pt/index.md
-        - file: content/pt/about/index.md
-        - file: content/pt/research/index.md
-        - file: content/pt/publications/index.md
-        - file: content/pt/projects/index.md
-          children:
-            - file: content/pt/projects/osm-spatiotemporal-analysis.md
-            - file: content/pt/projects/geospatial-infrastructure.md
-            - file: content/pt/projects/nlp-llm-geospatial.md
-        - file: content/pt/blog/index.md
-          children:
-            - file: content/pt/blog/2026-04-primeiro-post.md
-            - file: content/pt/blog/2026-04-openstreetmap-e-qualidade.md
-        - file: content/pt/cv/index.md
-        - file: content/pt/contact/index.md
-
     - title: EN
       children:
         - file: content/en/index.md
@@ -47,6 +29,24 @@ project:
             - file: content/en/blog/2026-04-openstreetmap-and-data-quality.md
         - file: content/en/cv/index.md
         - file: content/en/contact/index.md
+
+    - title: PT
+      children:
+        - file: content/pt/index.md
+        - file: content/pt/about/index.md
+        - file: content/pt/research/index.md
+        - file: content/pt/publications/index.md
+        - file: content/pt/projects/index.md
+          children:
+            - file: content/pt/projects/osm-spatiotemporal-analysis.md
+            - file: content/pt/projects/geospatial-infrastructure.md
+            - file: content/pt/projects/nlp-llm-geospatial.md
+        - file: content/pt/blog/index.md
+          children:
+            - file: content/pt/blog/2026-04-primeiro-post.md
+            - file: content/pt/blog/2026-04-openstreetmap-e-qualidade.md
+        - file: content/pt/cv/index.md
+        - file: content/pt/contact/index.md
 
 site:
   template: book-theme

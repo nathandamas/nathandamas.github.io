@@ -11,5 +11,5 @@ Professional and Academic personal website.
 
 ## Language / Idioma
 
-- ![](../assets/images/flag-br.svg) [Português](pt/index.md)
 - ![](../assets/images/flag-gb.svg) [English](en/index.md)
+- ![](../assets/images/flag-br.svg) [Português](pt/index.md)

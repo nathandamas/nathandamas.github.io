@@ -14,6 +14,4 @@
 [![CV Lattes](assets/icons/lattes.svg)](http://lattes.cnpq.br/3565779095318842 "CV Lattes")
 :::
 
-[CV (PT)](/pt/cv/) | [CV (EN)](/en/cv/)
-
 ::::

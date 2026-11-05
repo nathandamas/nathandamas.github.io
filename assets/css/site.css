@@ -42,7 +42,7 @@
 }
 
 .site-footer-icons {
-  margin-bottom: 18px;
+  margin-bottom: 0;
 }
 
 .site-footer-icons p {
@@ -61,10 +61,13 @@
   border-radius: 4px;
 }
 
-.site-footer-icons img {
+/* Override the MyST theme's 1.2em limit for images inside paragraph links. */
+.site-footer-bar .site-footer-icons img {
   display: block;
-  width: 48px;
-  height: 48px;
+  width: 64px;
+  height: 64px;
+  max-width: none;
+  max-height: none;
   object-fit: contain;
 }
 
