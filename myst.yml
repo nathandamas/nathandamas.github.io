@@ -1,0 +1,64 @@
+version: 1
+
+project:
+  id: nathan-damas-site-bilingual-final
+  title: Nathan Damas Antonio
+  description: >
+    Publication-ready bilingual academic-professional website for Nathan Damas Antonio,
+    focused on GIScience, collaborative cartography, OpenStreetMap, spatial and
+    spatio-temporal analysis, semantic interoperability, photogrammetry, LiDAR,
+    UAV, 3D cadastre, and spatial data infrastructures.
+  downloads: []
+  toc:
+    - file: content/index.md
+
+    - title: PT
+      children:
+        - file: content/pt/index.md
+        - file: content/pt/about/index.md
+        - file: content/pt/research/index.md
+        - file: content/pt/publications/index.md
+        - file: content/pt/projects/index.md
+          children:
+            - file: content/pt/projects/osm-spatiotemporal-analysis.md
+            - file: content/pt/projects/geospatial-infrastructure.md
+            - file: content/pt/projects/nlp-llm-geospatial.md
+        - file: content/pt/blog/index.md
+          children:
+            - file: content/pt/blog/2026-04-primeiro-post.md
+            - file: content/pt/blog/2026-04-openstreetmap-e-qualidade.md
+        - file: content/pt/cv/index.md
+        - file: content/pt/contact/index.md
+
+    - title: EN
+      children:
+        - file: content/en/index.md
+        - file: content/en/about/index.md
+        - file: content/en/research/index.md
+        - file: content/en/publications/index.md
+        - file: content/en/projects/index.md
+          children:
+            - file: content/en/projects/osm-spatiotemporal-analysis.md
+            - file: content/en/projects/geospatial-infrastructure.md
+            - file: content/en/projects/nlp-llm-geospatial.md
+        - file: content/en/blog/index.md
+          children:
+            - file: content/en/blog/2026-04-first-post.md
+            - file: content/en/blog/2026-04-openstreetmap-and-data-quality.md
+        - file: content/en/cv/index.md
+        - file: content/en/contact/index.md
+
+site:
+  template: book-theme
+  title: Nathan Damas Antonio
+  options:
+    folders: true
+    logo: ./assets/images/logo-light.png
+    logo_dark: ./assets/images/logo-dark.png
+    logo_alt: Nathan Damas Antonio
+    logo_text: Nathan Damas Antonio
+    favicon: ./assets/images/favicon.png
+    style: ./assets/css/site.css
+    outline_maxdepth: 2
+  parts:
+    footer: footer.md
