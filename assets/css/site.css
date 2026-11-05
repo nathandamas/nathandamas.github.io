@@ -7,7 +7,7 @@
 .site-footer-bar {
   width: 100%;
   box-sizing: border-box;
-  background: #04133f;
+  background: #202020;
   padding: 26px 22px;
   margin-top: 2.5rem;
   text-align: center;
@@ -39,6 +39,42 @@
 .site-footer-bar a:hover {
   color: #ffffff;
   text-decoration: underline;
+}
+
+.site-footer-icons {
+  margin-bottom: 18px;
+}
+
+.site-footer-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.site-footer-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.site-footer-icons img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.site-footer-icons a:hover {
+  opacity: 0.75;
+}
+
+.site-footer-bar a:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
 }
 
 @media (max-width: 900px) {
