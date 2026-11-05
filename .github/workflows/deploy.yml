@@ -48,3 +48,55 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify deployed MyST homepage
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import time
+          from html.parser import HTMLParser
+          from urllib.parse import urljoin, urlsplit
+          from urllib.request import urlopen
+
+          class Page(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.assets = []
+                  self.links = []
+
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag == 'link' and attrs.get('rel') == 'stylesheet':
+                      self.assets.append(attrs.get('href', ''))
+                  if tag == 'script' and attrs.get('src'):
+                      self.assets.append(attrs['src'])
+                  if tag == 'a':
+                      self.links.append(attrs.get('href', ''))
+
+          base = os.environ['PAGE_URL'].replace('http://', 'https://', 1)
+          for attempt in range(12):
+              try:
+                  with urlopen(base + '?deploy=' + os.environ['GITHUB_SHA'], timeout=20) as response:
+                      html = response.read().decode('utf-8')
+                  assert 'Professional and Academic personal website.' in html, 'MyST home content is missing'
+                  assert 'This repository contains the publication-ready' not in html, 'README was published instead of MyST'
+                  page = Page()
+                  page.feed(html)
+                  assert any('/pt' in link for link in page.links), 'Portuguese navigation is missing'
+                  assert any('/en' in link for link in page.links), 'English navigation is missing'
+                  assets = [urljoin(base, path) for path in page.assets]
+                  assets = [url for url in assets if urlsplit(url).netloc == urlsplit(base).netloc]
+                  assert assets, 'MyST styles and scripts are missing'
+                  for url in dict.fromkeys(assets):
+                      with urlopen(url, timeout=20) as response:
+                          assert response.status == 200, 'Missing asset: ' + url
+                  print('Verified live MyST homepage, PT/EN navigation, styles and scripts:', base)
+                  break
+              except Exception as error:
+                  if attempt == 11:
+                      raise
+                  print('Waiting for Pages propagation:', error, flush=True)
+                  time.sleep(10)
+          PY
