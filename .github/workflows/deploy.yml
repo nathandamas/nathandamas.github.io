@@ -65,6 +65,7 @@ jobs:
                   super().__init__()
                   self.assets = []
                   self.links = []
+                  self.icons = {}
 
               def handle_starttag(self, tag, attrs):
                   attrs = dict(attrs)
@@ -74,7 +75,14 @@ jobs:
                       self.assets.append(attrs['src'])
                   if tag == 'a':
                       self.links.append(attrs.get('href', ''))
+                  if tag == 'img' and attrs.get('alt') in expected_icons:
+                      self.icons[attrs['alt']] = attrs.get('src', '')
 
+          expected_icons = {
+              'E-mail', 'ORCID', 'Google Scholar', 'GitHub', 'LinkedIn',
+              'ResearchGate', 'Web of Science', 'Scopus', 'Publons',
+              'Academia.edu', 'CV Lattes',
+          }
           base = os.environ['PAGE_URL'].replace('http://', 'https://', 1)
           for attempt in range(12):
               try:
@@ -84,15 +92,17 @@ jobs:
                   assert 'This repository contains the publication-ready' not in html, 'README was published instead of MyST'
                   page = Page()
                   page.feed(html)
+                  assert set(page.icons) == expected_icons, 'Footer profile icons are missing'
                   assert any('/pt' in link for link in page.links), 'Portuguese navigation is missing'
                   assert any('/en' in link for link in page.links), 'English navigation is missing'
                   assets = [urljoin(base, path) for path in page.assets]
+                  assets.extend(urljoin(base, path) for path in page.icons.values())
                   assets = [url for url in assets if urlsplit(url).netloc == urlsplit(base).netloc]
                   assert assets, 'MyST styles and scripts are missing'
                   for url in dict.fromkeys(assets):
                       with urlopen(url, timeout=20) as response:
                           assert response.status == 200, 'Missing asset: ' + url
-                  print('Verified live MyST homepage, PT/EN navigation, styles and scripts:', base)
+                  print('Verified live MyST homepage, 11 profile icons, PT/EN navigation, styles and scripts:', base)
                   break
               except Exception as error:
                   if attempt == 11:
