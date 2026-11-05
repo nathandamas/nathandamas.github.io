@@ -17,6 +17,7 @@ project:
         - file: content/en/index.md
         - file: content/en/about/index.md
         - file: content/en/research/index.md
+        - file: content/en/lab/index.md
         - file: content/en/publications/index.md
         - file: content/en/projects/index.md
           children:
@@ -35,6 +36,7 @@ project:
         - file: content/pt/index.md
         - file: content/pt/about/index.md
         - file: content/pt/research/index.md
+        - file: content/pt/lab/index.md
         - file: content/pt/publications/index.md
         - file: content/pt/projects/index.md
           children:

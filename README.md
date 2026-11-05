@@ -49,6 +49,10 @@ My research interests include:
 | [Geospatial infrastructure](https://nathandamas.github.io/en/projects/geospatial-infrastructure/) | Spatial databases, metadata, interoperability and automation for territorial data management. |
 | [NLP and LLMs in geospatial technologies](https://nathandamas.github.io/en/projects/nlp-llm-geospatial/) | Natural language processing and large language models applied to geospatial information. |
 
+### Interactive laboratory
+
+[Explore the lab](https://nathandamas.github.io/laboratorio/?lang=en): an eight-card bilingual story about science and postgraduate education in Brazil, with year controls, accessible data tables, CSV/JSON downloads and explicit attribution. Data checks and reproduction are documented in [the product README](laboratorio/ciencia-e-pos-graduacao/README.md).
+
 ### Technical details
 
 - **Generator:** [MyST Markdown](https://mystmd.org/).
@@ -136,6 +140,10 @@ Meus interesses de pesquisa incluem:
 | [OpenStreetMap e dinâmica das contribuições](https://nathandamas.github.io/pt/projects/osm-spatiotemporal-analysis/) | Análises espaço-temporais de contribuições, exclusões e maturação dos dados no OpenStreetMap. |
 | [Infraestrutura geoespacial](https://nathandamas.github.io/pt/projects/geospatial-infrastructure/) | Bancos de dados espaciais, metadados, interoperabilidade e automação na gestão de dados territoriais. |
 | [PLN e LLMs em geotecnologias](https://nathandamas.github.io/pt/projects/nlp-llm-geospatial/) | Processamento de linguagem natural e grandes modelos de linguagem aplicados à informação geoespacial. |
+
+### Laboratório interativo
+
+[Explore o laboratório](https://nathandamas.github.io/laboratorio/?lang=pt): narrativa bilíngue em oito cartões sobre ciência e pós-graduação no Brasil, com seleção de ano, tabelas acessíveis, download em CSV/JSON e atribuição explícita. A conferência e a reprodução dos dados estão documentadas no [README do produto](laboratorio/ciencia-e-pos-graduacao/README.md).
 
 ### Detalhes técnicos
 

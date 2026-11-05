@@ -1,0 +1,236 @@
+{
+  "en": {
+    "series": {
+      "fed_ct_executado_sem_credito_real": "Executed S&T budget",
+      "fed_ct_pos_estimativa_real": "Postgraduate estimate",
+      "total": "Total",
+      "fed_ct_sem_credito_pct_pib": "Share of GDP",
+      "bolsas_capes_exterior": "CAPES scholarship holders abroad",
+      "programas": "Postgraduate programmes",
+      "matric_mestrado": "Master’s enrolments",
+      "matric_doutorado": "Doctoral enrolments",
+      "tit_mestrado": "Master’s degrees awarded",
+      "tit_doutorado": "Doctorates awarded"
+    },
+    "title": "Science & postgraduate education in Brazil",
+    "subtitle": "A reading of public investment and postgraduate education through six national data views.",
+    "snapshot": "Data snapshot: 16 Oct 2026 · Pilot v1.0",
+    "previous": "← Previous",
+    "next": "Next →",
+    "of": "of",
+    "year": "Explore a year",
+    "table": "Read the complete data table",
+    "unitLabel": "Unit",
+    "units": {
+      "BRL_September_2026": "BRL, September 2026 prices (IPCA)",
+      "percent_GDP": "% of GDP",
+      "count": "Count"
+    },
+    "copy": "Copy this view’s link",
+    "copied": "Link copied.",
+    "copyFallback": "Copy the address below:",
+    "credit": "Bilingual adaptation and interface: Nathan Damas Antonio. Original data processing and product: Alexandre Cajazeira. Derived data reused under CC BY 4.0; selection, translation and visual presentation changed.",
+    "original": "Original product",
+    "methods": "Methods & attribution",
+    "start": "First year",
+    "end": "Latest year",
+    "peak": "Peak in this series",
+    "selected": "Selected year",
+    "csv": "Download all data (CSV)",
+    "json": "Download data (JSON)",
+    "provenance": "Data provenance",
+    "overviewText": "What changed in federal science funding and in the scale of postgraduate education? Move through eight cards, inspect each annual value and download the data behind the charts.",
+    "overviewNote": "Spending and GDP shares end in 2023. Education and international scholarships end in 2024. These are dated observations, not live indicators or estimates of government impact.",
+    "statLabels": [
+      "cards",
+      "data views",
+      "languages"
+    ],
+    "methodsIntro": "A traceable adaptation of a published dataset. The figures retain their original precision; chart labels are rounded for readability.",
+    "methodItems": [
+      "Source: Alexandre Cajazeira’s published science and postgraduate education product, based on MCTI indicators and IPCA adjustment.",
+      "We selected six national datasets and recomputed investment totals. Annual coverage, numeric integrity and all exported values are checked against the frozen published snapshot.",
+      "The original agency files have not been independently re-downloaded or audited for this adaptation. The published snapshot, extraction code, checksums and source links make this step reproducible.",
+      "Changes: eight-card bilingual narrative, new interface and charts, national series only. No state-level maps or government-by-government causal comparisons.",
+      "Counts describe different populations: programmes are not courses; enrolments are year-end stocks; degrees awarded are annual flows. Scholarship holders abroad are not the monetary value of grants."
+    ],
+    "primary": "Primary sources listed by the original author",
+    "files": "Reproduce and inspect",
+    "code": "Preparation code",
+    "readme": "Reproduction guide",
+    "license": "Code: MIT · Derived data: CC BY 4.0",
+    "verification": "Verification covers fidelity to the published snapshot, not an independent audit of primary sources.",
+    "error": "The data could not be loaded. Reload this page or download the CSV using the link below.",
+    "cards": [
+      {
+        "id": "overview",
+        "nav": "The question",
+        "title": "How did science and postgraduate education evolve?"
+      },
+      {
+        "id": "investment",
+        "nav": "Investment",
+        "title": "Federal investment has more than one component.",
+        "description": "The total combines the executed science and technology budget with MCTI’s estimate for postgraduate education at federal universities.",
+        "note": "Committed expenditure, adjusted to September 2026 BRL by IPCA. Repayable FNDCT credit is excluded. The three lines show the two components and their sum; they are not three amounts to add together."
+      },
+      {
+        "id": "share",
+        "nav": "Share of GDP",
+        "title": "The economy provides a second perspective.",
+        "description": "Read federal science and technology investment as a percentage of GDP, rather than as a currency amount.",
+        "note": "Both investment and GDP can change. A lower share does not necessarily mean lower spending in inflation-adjusted BRL. Percentage-point changes differ from percentage changes."
+      },
+      {
+        "id": "abroad",
+        "nav": "Study abroad",
+        "title": "International scholarships follow an uneven trajectory.",
+        "description": "Annual CAPES scholarship holders abroad, as reported in the source dataset. Use the year control to inspect the peak and the subsequent changes.",
+        "note": "This series counts scholarship holders, not grant amounts. It does not include all international mobility or CNPq scholarships. It should not be summed with scholarship-year measures."
+      },
+      {
+        "id": "programmes",
+        "nav": "Programmes",
+        "title": "The postgraduate system expanded over time.",
+        "description": "The number of postgraduate programmes offers a view of the scale of Brazil’s research and training infrastructure.",
+        "note": "A programme can offer both master’s and doctoral courses. This indicator counts programmes, not courses, institutions or available places."
+      },
+      {
+        "id": "enrolment",
+        "nav": "Enrolments",
+        "title": "Master’s and doctoral enrolments measure different paths.",
+        "description": "Compare the number of students enrolled at the end of each year in academic and professional postgraduate programmes.",
+        "note": "These are year-end enrolments, not new admissions or the number of scholarships. The two lines use the same count scale."
+      },
+      {
+        "id": "graduates",
+        "nav": "Degrees awarded",
+        "title": "Graduation reflects several years of training.",
+        "description": "Annual master’s and doctoral degrees awarded, including academic and professional programmes.",
+        "note": "Graduates generally entered their programmes years earlier. These numbers cannot be attributed solely to decisions made in the graduation year."
+      },
+      {
+        "id": "methods",
+        "nav": "Sources & methods",
+        "title": "Follow the numbers back to their source."
+      }
+    ]
+  },
+  "pt": {
+    "series": {
+      "fed_ct_executado_sem_credito_real": "Orçamento executado em C&T",
+      "fed_ct_pos_estimativa_real": "Estimativa da pós-graduação",
+      "total": "Total",
+      "fed_ct_sem_credito_pct_pib": "Participação no PIB",
+      "bolsas_capes_exterior": "Bolsistas da CAPES no exterior",
+      "programas": "Programas de pós-graduação",
+      "matric_mestrado": "Matrículas no mestrado",
+      "matric_doutorado": "Matrículas no doutorado",
+      "tit_mestrado": "Mestres titulados",
+      "tit_doutorado": "Doutores titulados"
+    },
+    "title": "Ciência e pós-graduação no Brasil",
+    "subtitle": "Uma leitura do investimento público e da pós-graduação em seis recortes nacionais de dados.",
+    "snapshot": "Base de 16 out 2026 · Piloto v1.0",
+    "previous": "← Anterior",
+    "next": "Próximo →",
+    "of": "de",
+    "year": "Explore um ano",
+    "table": "Consultar a tabela completa de dados",
+    "unitLabel": "Unidade",
+    "units": {
+      "BRL_September_2026": "Reais de setembro de 2026 (IPCA)",
+      "percent_GDP": "% do PIB",
+      "count": "Contagem"
+    },
+    "copy": "Copiar link desta visualização",
+    "copied": "Link copiado.",
+    "copyFallback": "Copie o endereço abaixo:",
+    "credit": "Adaptação bilíngue e interface: Nathan Damas Antonio. Tratamento dos dados e produto original: Alexandre Cajazeira. Dados derivados reutilizados sob CC BY 4.0; seleção, tradução e apresentação visual modificadas.",
+    "original": "Produto original",
+    "methods": "Métodos e atribuição",
+    "start": "Primeiro ano",
+    "end": "Último ano",
+    "peak": "Máximo nesta série",
+    "selected": "Ano selecionado",
+    "csv": "Baixar todos os dados (CSV)",
+    "json": "Baixar dados (JSON)",
+    "provenance": "Proveniência dos dados",
+    "overviewText": "O que mudou no financiamento federal de ciência e no tamanho da pós-graduação? Percorra oito cartões, consulte cada valor anual e baixe os dados usados nos gráficos.",
+    "overviewNote": "O investimento e a participação no PIB terminam em 2023. A educação e as bolsas no exterior terminam em 2024. São observações datadas, não indicadores em tempo real nem estimativas do impacto de governos.",
+    "statLabels": [
+      "cartões",
+      "recortes",
+      "idiomas"
+    ],
+    "methodsIntro": "Uma adaptação rastreável de uma base publicada. Os números mantêm a precisão original; os rótulos dos gráficos são arredondados para facilitar a leitura.",
+    "methodItems": [
+      "Fonte: produto de ciência e pós-graduação publicado por Alexandre Cajazeira, baseado nos indicadores do MCTI e na correção pelo IPCA.",
+      "Selecionamos seis conjuntos nacionais e recalculamos os totais do investimento. A cobertura anual, a integridade numérica e os valores exportados são conferidos contra a cópia datada da base publicada.",
+      "Os arquivos originais dos órgãos não foram baixados novamente nem auditados de forma independente nesta adaptação. A base publicada, o código de extração, os checksums e os links das fontes permitem reproduzir essa etapa.",
+      "Alterações: narrativa bilíngue em oito cartões, nova interface e novos gráficos, apenas séries nacionais. Sem mapas estaduais ou comparações causais entre governos.",
+      "As contagens descrevem populações diferentes: programas não são cursos; matrículas são estoques ao fim do ano; títulos concedidos são fluxos anuais. Bolsistas no exterior não representam o valor financeiro das bolsas."
+    ],
+    "primary": "Fontes primárias indicadas pelo autor original",
+    "files": "Reproduzir e consultar",
+    "code": "Código de preparação",
+    "readme": "Guia de reprodução",
+    "license": "Código: MIT · Dados derivados: CC BY 4.0",
+    "verification": "A conferência cobre a fidelidade à base publicada, não uma auditoria independente das fontes primárias.",
+    "error": "Não foi possível carregar os dados. Recarregue esta página ou baixe o CSV no link abaixo.",
+    "cards": [
+      {
+        "id": "overview",
+        "nav": "A pergunta",
+        "title": "Como evoluíram a ciência e a pós-graduação?"
+      },
+      {
+        "id": "investment",
+        "nav": "Investimento",
+        "title": "O investimento federal tem mais de um componente.",
+        "description": "O total combina o orçamento executado em ciência e tecnologia com a estimativa do MCTI para a pós-graduação nas universidades federais.",
+        "note": "Valores empenhados, corrigidos pelo IPCA para reais de setembro de 2026. O crédito reembolsável do FNDCT fica de fora. As três linhas mostram os dois componentes e sua soma; não são três valores a somar."
+      },
+      {
+        "id": "share",
+        "nav": "Fatia do PIB",
+        "title": "A economia oferece uma segunda perspectiva.",
+        "description": "Observe o investimento federal em ciência e tecnologia como porcentagem do PIB, em vez de um valor monetário.",
+        "note": "Tanto o investimento quanto o PIB podem mudar. Uma participação menor não significa necessariamente menos investimento em reais corrigidos. Variações em pontos percentuais diferem de variações percentuais."
+      },
+      {
+        "id": "abroad",
+        "nav": "Bolsas no exterior",
+        "title": "As bolsas no exterior seguem uma trajetória irregular.",
+        "description": "Bolsistas anuais da CAPES no exterior, conforme a base de origem. Use o controle de ano para consultar o máximo e as mudanças posteriores.",
+        "note": "Esta série conta bolsistas, não o valor das bolsas. Não inclui toda a mobilidade internacional nem as bolsas do CNPq. Não deve ser somada a medidas de bolsas-ano."
+      },
+      {
+        "id": "programmes",
+        "nav": "Programas",
+        "title": "O sistema de pós-graduação cresceu ao longo do tempo.",
+        "description": "O número de programas oferece uma perspectiva do tamanho da infraestrutura brasileira de pesquisa e formação.",
+        "note": "Um programa pode oferecer cursos de mestrado e doutorado. O indicador conta programas, não cursos, instituições ou vagas."
+      },
+      {
+        "id": "enrolment",
+        "nav": "Matrículas",
+        "title": "Mestrado e doutorado descrevem percursos distintos.",
+        "description": "Compare os estudantes matriculados ao fim de cada ano nos programas acadêmicos e profissionais de pós-graduação.",
+        "note": "São matrículas ao fim do ano, não novos ingressos ou quantidade de bolsas. As duas linhas usam a mesma escala de contagem."
+      },
+      {
+        "id": "graduates",
+        "nav": "Titulações",
+        "title": "A titulação reflete vários anos de formação.",
+        "description": "Mestres e doutores titulados a cada ano, incluindo os programas acadêmicos e profissionais.",
+        "note": "Quem se titula geralmente ingressou anos antes. Os números não podem ser atribuídos apenas às decisões tomadas no ano da conclusão."
+      },
+      {
+        "id": "methods",
+        "nav": "Fontes e métodos",
+        "title": "Siga os números até a fonte."
+      }
+    ]
+  }
+}

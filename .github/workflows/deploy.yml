@@ -40,6 +40,12 @@ jobs:
       - name: Build HTML Assets
         run: myst build --html
 
+      - name: Validate and include the interactive laboratory
+        run: |
+          python3 analises/ciencia-e-pos-graduacao/prepare.py --check
+          python3 -m unittest discover -s tests -p 'test_science_data.py'
+          cp -R laboratorio _build/html/laboratorio
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -102,7 +108,20 @@ jobs:
                   for url in dict.fromkeys(assets):
                       with urlopen(url, timeout=20) as response:
                           assert response.status == 200, 'Missing asset: ' + url
-                  print('Verified live MyST homepage, 11 profile icons, PT/EN navigation, styles and scripts:', base)
+                  import json
+                  for path in ('laboratorio/', 'laboratorio/ciencia-e-pos-graduacao/',
+                               'laboratorio/assets/lab.css', 'laboratorio/assets/catalog.js',
+                               'laboratorio/ciencia-e-pos-graduacao/story.js',
+                               'laboratorio/ciencia-e-pos-graduacao/data/series.csv'):
+                      with urlopen(urljoin(base, path) + '?deploy=' + os.environ['GITHUB_SHA'], timeout=20) as response:
+                          assert response.status == 200 and response.read(), 'Missing laboratory resource: ' + path
+                  with urlopen(urljoin(base, 'laboratorio/ciencia-e-pos-graduacao/content.json'), timeout=20) as response:
+                      story = json.load(response)
+                  assert len(story['en']['cards']) == len(story['pt']['cards']) == 8
+                  with urlopen(urljoin(base, 'laboratorio/ciencia-e-pos-graduacao/data/series.json'), timeout=20) as response:
+                      series = json.load(response)
+                  assert len(series['datasets']) == 6
+                  print('Verified live MyST homepage, 11 profile icons and bilingual eight-card laboratory:', base)
                   break
               except Exception as error:
                   if attempt == 11:

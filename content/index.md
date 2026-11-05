@@ -13,3 +13,5 @@ Professional and Academic personal website.
 
 - ![](../assets/images/flag-gb.svg) [English](en/index.md)
 - ![](../assets/images/flag-br.svg) [Português](pt/index.md)
+
+[Research lab / Laboratório de pesquisa](/laboratorio/)
