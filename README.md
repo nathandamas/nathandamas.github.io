@@ -51,7 +51,7 @@ My research interests include:
 
 ### Interactive laboratory
 
-[Explore the lab](https://nathandamas.github.io/laboratorio/?lang=en): an eight-card bilingual story about science and postgraduate education in Brazil, with year controls, accessible data tables, CSV/JSON downloads and explicit attribution. Data checks and reproduction are documented in [the product README](laboratorio/ciencia-e-pos-graduacao/README.md).
+[Explore the lab](https://nathandamas.github.io/laboratorio/?lang=en): an nine-card bilingual story about science and postgraduate education in Brazil, with a state/region map, year controls, accessible data tables, CSV/JSON downloads and explicit attribution. Data checks and reproduction are documented in [the product README](laboratorio/ciencia-e-pos-graduacao/README.md).
 
 ### Technical details
 
@@ -143,7 +143,7 @@ Meus interesses de pesquisa incluem:
 
 ### Laboratório interativo
 
-[Explore o laboratório](https://nathandamas.github.io/laboratorio/?lang=pt): narrativa bilíngue em oito cartões sobre ciência e pós-graduação no Brasil, com seleção de ano, tabelas acessíveis, download em CSV/JSON e atribuição explícita. A conferência e a reprodução dos dados estão documentadas no [README do produto](laboratorio/ciencia-e-pos-graduacao/README.md).
+[Explore o laboratório](https://nathandamas.github.io/laboratorio/?lang=pt): narrativa bilíngue em nove cartões sobre ciência e pós-graduação no Brasil, com mapa de UFs e regiões, seleção de ano, tabelas acessíveis, download em CSV/JSON e atribuição explícita. A conferência e a reprodução dos dados estão documentadas no [README do produto](laboratorio/ciencia-e-pos-graduacao/README.md).
 
 ### Detalhes técnicos
 

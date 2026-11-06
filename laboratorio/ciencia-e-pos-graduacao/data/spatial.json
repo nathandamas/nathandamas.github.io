@@ -1,0 +1,5633 @@
+{
+  "population_year": 2022,
+  "snapshot_date": "2026-10-16",
+  "measures": {
+    "tit_doutorado": {
+      "per": 100000,
+      "years": {
+        "2002": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 137,
+              "published_rate": 0.8,
+              "rate": 0.8410306050423285
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 366,
+              "published_rate": 0.7,
+              "rate": 0.6696120448936456
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 38,
+              "published_rate": 0.2,
+              "rate": 0.21895853639816898
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 5584,
+              "published_rate": 6.6,
+              "rate": 6.58179227083302
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 769,
+              "published_rate": 2.6,
+              "rate": 2.568667084912919
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 11,
+              "published_rate": 0.4,
+              "rate": 0.35169804612551847
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 14,
+              "published_rate": 0.4,
+              "rate": 0.3551845399332709
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 54,
+              "published_rate": 0.4,
+              "rate": 0.38185142217733664
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 83,
+              "published_rate": 0.9,
+              "rate": 0.9437226355967403
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 132,
+              "published_rate": 4.7,
+              "rate": 4.685202320878859
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 6,
+              "published_rate": 0.2,
+              "rate": 0.15650627903191475
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 5,
+              "published_rate": 0.1,
+              "rate": 0.07085670718961751
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 468,
+              "published_rate": 2.3,
+              "rate": 2.2784822328775345
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 24,
+              "published_rate": 0.3,
+              "rate": 0.29556173416414094
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 52,
+              "published_rate": 1.3,
+              "rate": 1.308279117324207
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 127,
+              "published_rate": 1.4,
+              "rate": 1.401931419943479
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 147,
+              "published_rate": 1.3,
+              "rate": 1.2844732523736542
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 1055,
+              "published_rate": 6.6,
+              "rate": 6.571090416086428
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 39,
+              "published_rate": 1.2,
+              "rate": 1.180841661547163
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 481,
+              "published_rate": 4.4,
+              "rate": 4.419751418845875
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 141,
+              "published_rate": 1.9,
+              "rate": 1.8527373405808214
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 4055,
+              "published_rate": 9.1,
+              "rate": 9.130571861113172
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            }
+          },
+          "brasil": {
+            "count": 6894,
+            "population": 203080756,
+            "rate": 3.3947086547186185
+          }
+        },
+        "2010": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 448,
+              "published_rate": 2.8,
+              "rate": 2.7502314675836725
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 1261,
+              "published_rate": 2.3,
+              "rate": 2.3070513350024235
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 173,
+              "published_rate": 1.0,
+              "rate": 0.9968375472864007
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 7662,
+              "published_rate": 9.0,
+              "rate": 9.031105368754046
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 1770,
+              "published_rate": 5.9,
+              "rate": 5.91227664537824
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 30,
+              "published_rate": 1.0,
+              "rate": 0.9591764894332323
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 49,
+              "published_rate": 1.2,
+              "rate": 1.2431458897664485
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 211,
+              "published_rate": 1.5,
+              "rate": 1.4920490755447782
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 210,
+              "published_rate": 2.4,
+              "rate": 2.3877319695821138
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 278,
+              "published_rate": 9.9,
+              "rate": 9.867320039426687
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 36,
+              "published_rate": 0.9,
+              "rate": 0.9390376741914886
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 124,
+              "published_rate": 1.8,
+              "rate": 1.757246338302514
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 6,
+              "published_rate": 0.1,
+              "rate": 0.08853868232896282
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 1007,
+              "published_rate": 4.9,
+              "rate": 4.902631642110422
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 8,
+              "published_rate": 0.3,
+              "rate": 0.29016910692840403
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 38,
+              "published_rate": 1.0,
+              "rate": 1.0386347528828264
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 119,
+              "published_rate": 1.5,
+              "rate": 1.4654935985638655
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 227,
+              "published_rate": 5.7,
+              "rate": 5.711141531396057
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 382,
+              "published_rate": 4.2,
+              "rate": 4.216833089908732
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 8,
+              "published_rate": 0.2,
+              "rate": 0.24455864653908246
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 404,
+              "published_rate": 3.5,
+              "rate": 3.530116965707186
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 1682,
+              "published_rate": 10.5,
+              "rate": 10.47637353540983
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 162,
+              "published_rate": 4.9,
+              "rate": 4.905034594118985
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 5,
+              "published_rate": 0.3,
+              "rate": 0.31621633244708436
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 991,
+              "published_rate": 9.1,
+              "rate": 9.105974336956885
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 375,
+              "published_rate": 4.9,
+              "rate": 4.927492927076653
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 25,
+              "published_rate": 1.1,
+              "rate": 1.1312196720005936
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 4937,
+              "published_rate": 11.1,
+              "rate": 11.116555678992782
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            }
+          },
+          "brasil": {
+            "count": 11314,
+            "population": 203080756,
+            "rate": 5.571182726934501
+          }
+        },
+        "2015": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 982,
+              "published_rate": 6.0,
+              "rate": 6.028409154390997
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 2742,
+              "published_rate": 5.0,
+              "rate": 5.016601713383541
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 415,
+              "published_rate": 2.4,
+              "rate": 2.391257700137898
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 11262,
+              "published_rate": 13.3,
+              "rate": 13.274381188059001
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 3595,
+              "published_rate": 12.0,
+              "rate": 12.008268101771057
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 65,
+              "published_rate": 2.1,
+              "rate": 2.0782157271053365
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 121,
+              "published_rate": 3.1,
+              "rate": 3.0698092379946993
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 2,
+              "published_rate": 0.3,
+              "rate": 0.2725690587781547
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 552,
+              "published_rate": 3.9,
+              "rate": 3.9033700933683297
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 496,
+              "published_rate": 5.6,
+              "rate": 5.639595509108231
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 565,
+              "published_rate": 20.1,
+              "rate": 20.05408569164057
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 134,
+              "published_rate": 3.5,
+              "rate": 3.4953068983794298
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 237,
+              "published_rate": 3.4,
+              "rate": 3.35860792078787
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 43,
+              "published_rate": 0.6,
+              "rate": 0.6345272233575668
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 1838,
+              "published_rate": 8.9,
+              "rate": 8.94839817100194
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 56,
+              "published_rate": 2.0,
+              "rate": 2.031183748498828
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 124,
+              "published_rate": 3.4,
+              "rate": 3.389229193617644
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 272,
+              "published_rate": 3.3,
+              "rate": 3.349699653860264
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 368,
+              "published_rate": 9.3,
+              "rate": 9.258590676448232
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 715,
+              "published_rate": 7.9,
+              "rate": 7.892763505981003
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 51,
+              "published_rate": 1.6,
+              "rate": 1.5590613716866506
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 1030,
+              "published_rate": 9.0,
+              "rate": 9.000050679897033
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 2453,
+              "published_rate": 15.3,
+              "rate": 15.27856378261612
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 381,
+              "published_rate": 11.5,
+              "rate": 11.53591469357613
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 5,
+              "published_rate": 0.3,
+              "rate": 0.31621633244708436
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 1888,
+              "published_rate": 17.3,
+              "rate": 17.348213469399195
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 677,
+              "published_rate": 8.9,
+              "rate": 8.895767231015716
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 71,
+              "published_rate": 3.2,
+              "rate": 3.2126638684816857
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 6837,
+              "published_rate": 15.4,
+              "rate": 15.39475211206677
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 15,
+              "published_rate": 1.0,
+              "rate": 0.9924179270374339
+            }
+          },
+          "brasil": {
+            "count": 18996,
+            "population": 203080756,
+            "rate": 9.353914361043644
+          }
+        },
+        "2018": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 1423,
+              "published_rate": 8.7,
+              "rate": 8.735668255293673
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 3690,
+              "published_rate": 6.8,
+              "rate": 6.751006682124459
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 644,
+              "published_rate": 3.7,
+              "rate": 3.7107709852742317
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 12948,
+              "published_rate": 15.3,
+              "rate": 15.261648696766823
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 4771,
+              "published_rate": 15.9,
+              "rate": 15.936424788191855
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 20,
+              "published_rate": 2.4,
+              "rate": 2.4095862981284744
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 101,
+              "published_rate": 3.2,
+              "rate": 3.229227514425215
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 181,
+              "published_rate": 4.6,
+              "rate": 4.5920286948515745
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 8,
+              "published_rate": 1.1,
+              "rate": 1.0902762351126187
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 783,
+              "published_rate": 5.5,
+              "rate": 5.536845621571381
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 627,
+              "published_rate": 7.1,
+              "rate": 7.129085452038026
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 694,
+              "published_rate": 24.6,
+              "rate": 24.632806141590365
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 201,
+              "published_rate": 5.2,
+              "rate": 5.242960347569144
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 359,
+              "published_rate": 5.1,
+              "rate": 5.087511576214537
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 84,
+              "published_rate": 1.2,
+              "rate": 1.2395415526054796
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 2254,
+              "published_rate": 11.0,
+              "rate": 10.973715711337528
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 124,
+              "published_rate": 4.5,
+              "rate": 4.497621157390263
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 246,
+              "published_rate": 6.7,
+              "rate": 6.723793400241455
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 368,
+              "published_rate": 4.5,
+              "rate": 4.531946590516828
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 474,
+              "published_rate": 11.9,
+              "rate": 11.92546733868604
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 920,
+              "published_rate": 10.2,
+              "rate": 10.1557236720315
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 88,
+              "published_rate": 2.7,
+              "rate": 2.690145111929907
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 1444,
+              "published_rate": 12.6,
+              "rate": 12.61754677841875
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 3034,
+              "published_rate": 18.9,
+              "rate": 18.89733490275471
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 426,
+              "published_rate": 12.9,
+              "rate": 12.898424303053627
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 16,
+              "published_rate": 1.0,
+              "rate": 1.01189226383067
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 11,
+              "published_rate": 1.7,
+              "rate": 1.7276392437965973
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 2397,
+              "published_rate": 22.0,
+              "rate": 22.025247715121754
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 930,
+              "published_rate": 12.2,
+              "rate": 12.220182459150099
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 187,
+              "published_rate": 8.5,
+              "rate": 8.46152314656444
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 7459,
+              "published_rate": 16.8,
+              "rate": 16.795298523315203
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 40,
+              "published_rate": 2.6,
+              "rate": 2.6464478054331573
+            }
+          },
+          "brasil": {
+            "count": 23476,
+            "population": 203080756,
+            "rate": 11.559933330167434
+          }
+        },
+        "2022": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 1556,
+              "published_rate": 9.6,
+              "rate": 9.552143222232576
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 3711,
+              "published_rate": 6.8,
+              "rate": 6.789427045356063
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 781,
+              "published_rate": 4.5,
+              "rate": 4.500174129657104
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 11954,
+              "published_rate": 14.1,
+              "rate": 14.090033095547623
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 4991,
+              "published_rate": 16.7,
+              "rate": 16.671284032250167
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 27,
+              "published_rate": 3.3,
+              "rate": 3.25294150247344
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 134,
+              "published_rate": 4.3,
+              "rate": 4.284321652801771
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 199,
+              "published_rate": 5.0,
+              "rate": 5.048694531908637
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 19,
+              "published_rate": 2.6,
+              "rate": 2.5894060583924694
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 702,
+              "published_rate": 5.0,
+              "rate": 4.964068488305376
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 617,
+              "published_rate": 7.0,
+              "rate": 7.015383929676973
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 674,
+              "published_rate": 23.9,
+              "rate": 23.92292700206326
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 254,
+              "published_rate": 6.6,
+              "rate": 6.625432479017725
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 466,
+              "published_rate": 6.6,
+              "rate": 6.603845110072351
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 80,
+              "published_rate": 1.2,
+              "rate": 1.180515764386171
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 2505,
+              "published_rate": 12.2,
+              "rate": 12.195722208030393
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 173,
+              "published_rate": 6.3,
+              "rate": 6.274906937326738
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 243,
+              "published_rate": 6.6,
+              "rate": 6.641795919750707
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 446,
+              "published_rate": 5.5,
+              "rate": 5.492522226550285
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 522,
+              "published_rate": 13.1,
+              "rate": 13.133109600831462
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 853,
+              "published_rate": 9.4,
+              "rate": 9.41612205678573
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 105,
+              "published_rate": 3.2,
+              "rate": 3.2098322358254574
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 1727,
+              "published_rate": 15.1,
+              "rate": 15.090376237070073
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 2880,
+              "published_rate": 17.9,
+              "rate": 17.938142557657738
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 489,
+              "published_rate": 14.8,
+              "rate": 14.80593775632212
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 20,
+              "published_rate": 1.3,
+              "rate": 1.2648653297883374
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 10,
+              "published_rate": 1.6,
+              "rate": 1.5705811307241793
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 2349,
+              "published_rate": 21.6,
+              "rate": 21.58419144047601
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 915,
+              "published_rate": 12.0,
+              "rate": 12.023082742067032
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 209,
+              "published_rate": 9.5,
+              "rate": 9.456996457924962
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 6315,
+              "published_rate": 14.2,
+              "rate": 14.219373934138021
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 60,
+              "published_rate": 4.0,
+              "rate": 3.9696717081497357
+            }
+          },
+          "brasil": {
+            "count": 22993,
+            "population": 203080756,
+            "rate": 11.322096910058775
+          }
+        },
+        "2024": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 1841,
+              "published_rate": 11.3,
+              "rate": 11.301732437101654
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 4328,
+              "published_rate": 7.9,
+              "rate": 7.918253907922672
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 939,
+              "published_rate": 5.4,
+              "rate": 5.410580675733701
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 13377,
+              "published_rate": 15.8,
+              "rate": 15.767305731900663
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 5430,
+              "published_rate": 18.1,
+              "rate": 18.137662251075618
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 32,
+              "published_rate": 3.9,
+              "rate": 3.855338077005559
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 135,
+              "published_rate": 4.3,
+              "rate": 4.316294202449545
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 194,
+              "published_rate": 4.9,
+              "rate": 4.921842910503898
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 9,
+              "published_rate": 1.2,
+              "rate": 1.226560764501696
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 901,
+              "published_rate": 6.4,
+              "rate": 6.371261692255191
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 701,
+              "published_rate": 8.0,
+              "rate": 7.970476717509818
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 787,
+              "published_rate": 27.9,
+              "rate": 27.93374414039138
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 320,
+              "published_rate": 8.3,
+              "rate": 8.347001548368787
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 543,
+              "published_rate": 7.7,
+              "rate": 7.695038400792462
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 126,
+              "published_rate": 1.9,
+              "rate": 1.859312328908219
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 2477,
+              "published_rate": 12.1,
+              "rate": 12.059402758200115
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 182,
+              "published_rate": 6.6,
+              "rate": 6.6013471826211925
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 329,
+              "published_rate": 9.0,
+              "rate": 8.992390360485523
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 580,
+              "published_rate": 7.1,
+              "rate": 7.142741908966739
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 559,
+              "published_rate": 14.1,
+              "rate": 14.064000511235225
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 1007,
+              "published_rate": 11.1,
+              "rate": 11.116101888843176
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 190,
+              "published_rate": 5.8,
+              "rate": 5.8082678553032085
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 1913,
+              "published_rate": 16.7,
+              "rate": 16.71562810742041
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 3236,
+              "published_rate": 20.2,
+              "rate": 20.155496290479316
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 519,
+              "published_rate": 15.7,
+              "rate": 15.714277495973782
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 24,
+              "published_rate": 1.5,
+              "rate": 1.5178383957460049
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 21,
+              "published_rate": 3.3,
+              "rate": 3.2982203745207763
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 2456,
+              "published_rate": 22.6,
+              "rate": 22.567379386040475
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 1061,
+              "published_rate": 13.9,
+              "rate": 13.94151998834221
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 190,
+              "published_rate": 8.6,
+              "rate": 8.597269507204512
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 7344,
+              "published_rate": 16.5,
+              "rate": 16.536355054997568
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 79,
+              "published_rate": 5.2,
+              "rate": 5.226734415730486
+            }
+          },
+          "brasil": {
+            "count": 25915,
+            "population": 203080756,
+            "rate": 12.76093338947389
+          }
+        }
+      }
+    },
+    "tit_mestrado": {
+      "per": 100000,
+      "years": {
+        "2002": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 1434,
+              "published_rate": 8.8,
+              "rate": 8.803196260078094
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 2900,
+              "published_rate": 5.3,
+              "rate": 5.305669208173694
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 439,
+              "published_rate": 2.5,
+              "rate": 2.5295473020735835
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 14614,
+              "published_rate": 17.2,
+              "rate": 17.225342450922952
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 5057,
+              "published_rate": 16.9,
+              "rate": 16.89174180546766
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 56,
+              "published_rate": 1.8,
+              "rate": 1.7904627802753668
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 159,
+              "published_rate": 4.0,
+              "rate": 4.033881560670721
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 569,
+              "published_rate": 4.0,
+              "rate": 4.023582578127862
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 527,
+              "published_rate": 6.0,
+              "rate": 5.992070228427496
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 869,
+              "published_rate": 30.8,
+              "rate": 30.84424861245249
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 138,
+              "published_rate": 3.6,
+              "rate": 3.5996444177340394
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 334,
+              "published_rate": 4.7,
+              "rate": 4.733228040266449
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 55,
+              "published_rate": 0.8,
+              "rate": 0.8116045880154925
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 2139,
+              "published_rate": 10.4,
+              "rate": 10.41383225667745
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 139,
+              "published_rate": 5.0,
+              "rate": 5.04168823288102
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 92,
+              "published_rate": 2.5,
+              "rate": 2.5145894017163166
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 279,
+              "published_rate": 3.4,
+              "rate": 3.4359051596581387
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 519,
+              "published_rate": 13.1,
+              "rate": 13.057631959447372
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 832,
+              "published_rate": 9.2,
+              "rate": 9.184306625141533
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 20,
+              "published_rate": 0.6,
+              "rate": 0.6113966163477061
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 1230,
+              "published_rate": 10.7,
+              "rate": 10.747633336187718
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 3452,
+              "published_rate": 21.5,
+              "rate": 21.50085698230365
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 286,
+              "published_rate": 8.7,
+              "rate": 8.659505518012528
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 1,
+              "published_rate": 0.1,
+              "rate": 0.06324326648941687
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 2455,
+              "published_rate": 22.6,
+              "rate": 22.558190713652024
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 1372,
+              "published_rate": 18.0,
+              "rate": 18.028054122531113
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 36,
+              "published_rate": 1.6,
+              "rate": 1.6289563276808547
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 8885,
+              "published_rate": 20.0,
+              "rate": 20.006197530453893
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 0,
+              "published_rate": 0.0,
+              "rate": 0.0
+            }
+          },
+          "brasil": {
+            "count": 24444,
+            "population": 203080756,
+            "rate": 12.036591000281682
+          }
+        },
+        "2010": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 2530,
+              "published_rate": 15.5,
+              "rate": 15.531441100416721
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 6750,
+              "published_rate": 12.3,
+              "rate": 12.349402467300841
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 1407,
+              "published_rate": 8.1,
+              "rate": 8.107227913479573
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 20800,
+              "published_rate": 24.5,
+              "rate": 24.516704733761962
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 8103,
+              "published_rate": 27.1,
+              "rate": 27.06620206638411
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 58,
+              "published_rate": 7.0,
+              "rate": 6.987800264572575
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 243,
+              "published_rate": 7.8,
+              "rate": 7.7693295644091815
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 427,
+              "published_rate": 10.8,
+              "rate": 10.833128467964764
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 28,
+              "published_rate": 3.8,
+              "rate": 3.8159668228941652
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 1266,
+              "published_rate": 9.0,
+              "rate": 8.952294453268669
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 1266,
+              "published_rate": 14.4,
+              "rate": 14.394612730909316
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 1107,
+              "published_rate": 39.3,
+              "rate": 39.291810372824976
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 483,
+              "published_rate": 12.6,
+              "rate": 12.598755462069137
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 731,
+              "published_rate": 10.4,
+              "rate": 10.35925059112208
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 196,
+              "published_rate": 2.9,
+              "rate": 2.8922636227461185
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 3954,
+              "published_rate": 19.3,
+              "rate": 19.250253736747375
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 397,
+              "published_rate": 14.4,
+              "rate": 14.399641931322051
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 295,
+              "published_rate": 8.1,
+              "rate": 8.063085581590363
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 692,
+              "published_rate": 8.5,
+              "rate": 8.52203000173273
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 881,
+              "published_rate": 22.2,
+              "rate": 22.16526735312743
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 1590,
+              "published_rate": 17.6,
+              "rate": 17.551739824489225
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 211,
+              "published_rate": 6.5,
+              "rate": 6.4502343024683
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 2566,
+              "published_rate": 22.4,
+              "rate": 22.4214854802095
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 5192,
+              "published_rate": 32.3,
+              "rate": 32.338484777555195
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 790,
+              "published_rate": 23.9,
+              "rate": 23.919613144160483
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 88,
+              "published_rate": 5.6,
+              "rate": 5.565407451068684
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 24,
+              "published_rate": 3.8,
+              "rate": 3.7693947137380306
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 3901,
+              "published_rate": 35.8,
+              "rate": 35.84501098735501
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 1636,
+              "published_rate": 21.5,
+              "rate": 21.497009143193075
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 307,
+              "published_rate": 13.9,
+              "rate": 13.891377572167292
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 11171,
+              "published_rate": 25.2,
+              "rate": 25.15354334414186
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 90,
+              "published_rate": 6.0,
+              "rate": 5.954507562224604
+            }
+          },
+          "brasil": {
+            "count": 39590,
+            "population": 203080756,
+            "rate": 19.494707809734567
+          }
+        },
+        "2015": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 4457,
+              "published_rate": 27.4,
+              "rate": 27.361119756742028
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 10597,
+              "published_rate": 19.4,
+              "rate": 19.387647103109188
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 2448,
+              "published_rate": 14.1,
+              "rate": 14.105539397439937
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 27193,
+              "published_rate": 32.1,
+              "rate": 32.052055376211015
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 11972,
+              "published_rate": 40.0,
+              "rate": 39.98970395393689
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 78,
+              "published_rate": 9.4,
+              "rate": 9.397386562701051
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 351,
+              "published_rate": 11.2,
+              "rate": 11.222364926368817
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 587,
+              "published_rate": 14.9,
+              "rate": 14.892380352916431
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 45,
+              "published_rate": 6.1,
+              "rate": 6.132803822508481
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 2218,
+              "published_rate": 15.7,
+              "rate": 15.684193599802457
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 1760,
+              "published_rate": 20.0,
+              "rate": 20.011467935545337
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 1579,
+              "published_rate": 56.0,
+              "rate": 56.04495806566454
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 1084,
+              "published_rate": 28.3,
+              "rate": 28.275467745099267
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 1336,
+              "published_rate": 18.9,
+              "rate": 18.932912161065797
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 399,
+              "published_rate": 5.9,
+              "rate": 5.887822374876028
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 5920,
+              "published_rate": 28.8,
+              "rate": 28.821826535544886
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 837,
+              "published_rate": 30.4,
+              "rate": 30.358942812384274
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 705,
+              "published_rate": 19.3,
+              "rate": 19.26940791532612
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 1238,
+              "published_rate": 15.2,
+              "rate": 15.246059453966938
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 1447,
+              "published_rate": 36.4,
+              "rate": 36.40538236092553
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 2030,
+              "published_rate": 22.4,
+              "rate": 22.408825058939073
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 502,
+              "published_rate": 15.3,
+              "rate": 15.346055070327425
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 4095,
+              "published_rate": 35.8,
+              "rate": 35.78175488755179
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 6918,
+              "published_rate": 43.1,
+              "rate": 43.08891326870702
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 1309,
+              "published_rate": 39.6,
+              "rate": 39.63389064013426
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 176,
+              "published_rate": 11.1,
+              "rate": 11.130814902137368
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 88,
+              "published_rate": 13.8,
+              "rate": 13.821113950372778
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 5541,
+              "published_rate": 50.9,
+              "rate": 50.91443370441787
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 2336,
+              "published_rate": 30.7,
+              "rate": 30.694995940402826
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 581,
+              "published_rate": 26.3,
+              "rate": 26.2895451772938
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 13271,
+              "published_rate": 29.9,
+              "rate": 29.882076243855217
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 236,
+              "published_rate": 15.6,
+              "rate": 15.614042052055629
+            }
+          },
+          "brasil": {
+            "count": 56667,
+            "population": 203080756,
+            "rate": 27.90367788467362
+          }
+        },
+        "2018": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 5360,
+              "published_rate": 32.9,
+              "rate": 32.90455505859037
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 13383,
+              "published_rate": 24.5,
+              "rate": 24.484748625168468
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 3533,
+              "published_rate": 20.4,
+              "rate": 20.35738181828239
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 30640,
+              "published_rate": 36.1,
+              "rate": 36.11499197319551
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 14077,
+              "published_rate": 47.0,
+              "rate": 47.02097081185846
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 210,
+              "published_rate": 25.3,
+              "rate": 25.30065613034898
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 517,
+              "published_rate": 16.5,
+              "rate": 16.52980816789937
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 793,
+              "published_rate": 20.1,
+              "rate": 20.118667154791705
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 103,
+              "published_rate": 14.0,
+              "rate": 14.037306527074966
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 2760,
+              "published_rate": 19.5,
+              "rate": 19.51685046684165
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 2180,
+              "published_rate": 24.8,
+              "rate": 24.786931874709563
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 1914,
+              "published_rate": 67.9,
+              "rate": 67.93543365274346
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 1383,
+              "published_rate": 36.1,
+              "rate": 36.07469731685635
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 1635,
+              "published_rate": 23.2,
+              "rate": 23.170143251004923
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 629,
+              "published_rate": 9.3,
+              "rate": 9.28180519748627
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 7324,
+              "published_rate": 35.7,
+              "rate": 35.65727323417749
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 989,
+              "published_rate": 35.9,
+              "rate": 35.87215584402394
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 822,
+              "published_rate": 22.5,
+              "rate": 22.46730965446535
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 1770,
+              "published_rate": 21.8,
+              "rate": 21.797677894605393
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 1811,
+              "published_rate": 45.6,
+              "rate": 45.56333618219497
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 2474,
+              "published_rate": 27.3,
+              "rate": 27.310065613702104
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 607,
+              "published_rate": 18.6,
+              "rate": 18.55588730615288
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 5256,
+              "published_rate": 45.9,
+              "rate": 45.92647220731923
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 7681,
+              "published_rate": 47.8,
+              "rate": 47.84127534214204
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 1649,
+              "published_rate": 49.9,
+              "rate": 49.92840768951979
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 195,
+              "published_rate": 12.3,
+              "rate": 12.33243696543629
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 139,
+              "published_rate": 21.8,
+              "rate": 21.83107771706609
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 6098,
+              "published_rate": 56.0,
+              "rate": 56.03252422478617
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 2723,
+              "published_rate": 35.8,
+              "rate": 35.780168641145934
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 756,
+              "published_rate": 34.2,
+              "rate": 34.208082881297955
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 14252,
+              "published_rate": 32.1,
+              "rate": 32.09097661272131
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 323,
+              "published_rate": 21.4,
+              "rate": 21.370066028872746
+            }
+          },
+          "brasil": {
+            "count": 66993,
+            "population": 203080756,
+            "rate": 32.98835464252457
+          }
+        },
+        "2022": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 5146,
+              "published_rate": 31.6,
+              "rate": 31.590828420057097
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 12062,
+              "published_rate": 22.1,
+              "rate": 22.067924823790037
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 3616,
+              "published_rate": 20.8,
+              "rate": 20.83563335830997
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 25678,
+              "published_rate": 30.3,
+              "rate": 30.26634346892018
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 12872,
+              "published_rate": 43.0,
+              "rate": 42.99594631599362
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 176,
+              "published_rate": 21.2,
+              "rate": 21.204359423530573
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 485,
+              "published_rate": 15.5,
+              "rate": 15.506686579170585
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 772,
+              "published_rate": 19.6,
+              "rate": 19.5858903448918
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 158,
+              "published_rate": 21.5,
+              "rate": 21.53295564347422
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 2277,
+              "published_rate": 16.1,
+              "rate": 16.10140163514436
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 1928,
+              "published_rate": 21.9,
+              "rate": 21.921653511211026
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 1874,
+              "published_rate": 66.5,
+              "rate": 66.51567537368925
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 1128,
+              "published_rate": 29.4,
+              "rate": 29.423180457999973
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 1454,
+              "published_rate": 20.6,
+              "rate": 20.60513045074077
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 821,
+              "published_rate": 12.1,
+              "rate": 12.115043032013078
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 6383,
+              "published_rate": 31.1,
+              "rate": 31.07596600952415
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 992,
+              "published_rate": 36.0,
+              "rate": 35.980969259122105
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 826,
+              "published_rate": 22.6,
+              "rate": 22.576639628453016
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 1739,
+              "published_rate": 21.4,
+              "rate": 21.41591065464338
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 1326,
+              "published_rate": 33.4,
+              "rate": 33.36111749176728
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 2399,
+              "published_rate": 26.5,
+              "rate": 26.48215335782997
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 622,
+              "published_rate": 19.0,
+              "rate": 19.01443476841366
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 4871,
+              "published_rate": 42.6,
+              "rate": 42.56237559395965
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 6553,
+              "published_rate": 40.8,
+              "rate": 40.81550284039276
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 1488,
+              "published_rate": 45.1,
+              "rate": 45.053651086722525
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 216,
+              "published_rate": 13.7,
+              "rate": 13.660545561714043
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 160,
+              "published_rate": 25.1,
+              "rate": 25.12929809158687
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 5423,
+              "published_rate": 49.8,
+              "rate": 49.83017036258042
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 2578,
+              "published_rate": 33.9,
+              "rate": 33.87487137600963
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 716,
+              "published_rate": 32.4,
+              "rate": 32.398131406097
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 11614,
+              "published_rate": 26.2,
+              "rate": 26.151038617748057
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 395,
+              "published_rate": 26.1,
+              "rate": 26.13367207865243
+            }
+          },
+          "brasil": {
+            "count": 59374,
+            "population": 203080756,
+            "rate": 29.236645150168734
+          }
+        },
+        "2024": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 5560,
+              "published_rate": 34.1,
+              "rate": 34.13233696376165
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 14212,
+              "published_rate": 26.0,
+              "rate": 26.00143820226364
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 4402,
+              "published_rate": 25.4,
+              "rate": 25.36461782170368
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 29243,
+              "published_rate": 34.5,
+              "rate": 34.46836521775967
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 12502,
+              "published_rate": 41.8,
+              "rate": 41.76004667825918
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 213,
+              "published_rate": 25.7,
+              "rate": 25.662094075068254
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 582,
+              "published_rate": 18.6,
+              "rate": 18.608023895004703
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 1004,
+              "published_rate": 25.5,
+              "rate": 25.47180557807172
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 122,
+              "published_rate": 16.6,
+              "rate": 16.626712585467438
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 2687,
+              "published_rate": 19.0,
+              "rate": 19.000643914638953
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 2638,
+              "published_rate": 30.0,
+              "rate": 29.994461598845795
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 1917,
+              "published_rate": 68.0,
+              "rate": 68.04191552367251
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 1220,
+              "published_rate": 31.8,
+              "rate": 31.822943403156
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 1710,
+              "published_rate": 24.2,
+              "rate": 24.232993858849188
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 1022,
+              "published_rate": 15.1,
+              "rate": 15.081088890033334
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 6699,
+              "published_rate": 32.6,
+              "rate": 32.614428371894455
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 1057,
+              "published_rate": 38.3,
+              "rate": 38.33859325291538
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 876,
+              "published_rate": 23.9,
+              "rate": 23.94326430329884
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 2137,
+              "published_rate": 26.3,
+              "rate": 26.317309412865384
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 1537,
+              "published_rate": 38.7,
+              "rate": 38.669711602448196
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 2758,
+              "published_rate": 30.4,
+              "rate": 30.445093355937917
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 754,
+              "published_rate": 23.0,
+              "rate": 23.04965243630852
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 4603,
+              "published_rate": 40.2,
+              "rate": 40.22061483453014
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 8271,
+              "published_rate": 51.5,
+              "rate": 51.516103157773316
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 1587,
+              "published_rate": 48.1,
+              "rate": 48.05117222757301
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 314,
+              "published_rate": 19.9,
+              "rate": 19.858385677676896
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 185,
+              "published_rate": 29.1,
+              "rate": 29.05575091839732
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 5227,
+              "published_rate": 48.0,
+              "rate": 48.02919057444364
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 2672,
+              "published_rate": 35.1,
+              "rate": 35.11002960306351
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 647,
+              "published_rate": 29.3,
+              "rate": 29.275965111375363
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 13053,
+              "published_rate": 29.4,
+              "rate": 29.391209495218305
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 427,
+              "published_rate": 28.3,
+              "rate": 28.250830322998958
+            }
+          },
+          "brasil": {
+            "count": 65919,
+            "population": 203080756,
+            "rate": 32.45950098787302
+          }
+        }
+      }
+    },
+    "bolsas": {
+      "per": 100000,
+      "years": {
+        "2010": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 4063,
+              "published_rate": 24.9,
+              "rate": 24.942389403554596
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 11723,
+              "published_rate": 21.4,
+              "rate": 21.447710388765593
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 2915,
+              "published_rate": 16.8,
+              "rate": 16.796424568438486
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 26939,
+              "published_rate": 31.8,
+              "rate": 31.752668693404495
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 12467,
+              "published_rate": 41.6,
+              "rate": 41.64313725306809
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 190,
+              "published_rate": 22.9,
+              "rate": 22.891069832220506
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 396,
+              "published_rate": 12.7,
+              "rate": 12.661129660518665
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 842,
+              "published_rate": 21.4,
+              "rate": 21.361813044558154
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 65,
+              "published_rate": 8.9,
+              "rate": 8.858494410290028
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 2196,
+              "published_rate": 15.5,
+              "rate": 15.528624501878356
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 1866,
+              "published_rate": 21.2,
+              "rate": 21.216704072572497
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 1325,
+              "published_rate": 47.0,
+              "rate": 47.02949299367036
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 728,
+              "published_rate": 19.0,
+              "rate": 18.98942852253899
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 1140,
+              "published_rate": 16.2,
+              "rate": 16.155329239232792
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 693,
+              "published_rate": 10.2,
+              "rate": 10.226217808995205
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 5229,
+              "published_rate": 25.5,
+              "rate": 25.457657255804765
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 705,
+              "published_rate": 25.6,
+              "rate": 25.571152548065605
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 893,
+              "published_rate": 24.4,
+              "rate": 24.407916692746422
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 1301,
+              "published_rate": 16.0,
+              "rate": 16.02190900614781
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 2175,
+              "published_rate": 54.7,
+              "rate": 54.72129000346442
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 2070,
+              "published_rate": 22.9,
+              "rate": 22.85037826207088
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 428,
+              "published_rate": 13.1,
+              "rate": 13.083887589840913
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 4246,
+              "published_rate": 37.1,
+              "rate": 37.10117979305126
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 6671,
+              "published_rate": 41.6,
+              "rate": 41.55046840351902
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 1431,
+              "published_rate": 43.3,
+              "rate": 43.32780558138437
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 116,
+              "published_rate": 7.3,
+              "rate": 7.336218912772357
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 80,
+              "published_rate": 12.6,
+              "rate": 12.564649045793434
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 6043,
+              "published_rate": 55.5,
+              "rate": 55.52714724342126
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 2178,
+              "published_rate": 28.6,
+              "rate": 28.618878920461196
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 468,
+              "published_rate": 21.2,
+              "rate": 21.176432259851115
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 14311,
+              "published_rate": 32.2,
+              "rate": 32.223825870379926
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 321,
+              "published_rate": 21.2,
+              "rate": 21.23774363860109
+            }
+          },
+          "brasil": {
+            "count": 58107,
+            "population": 203080756,
+            "rate": 28.612755410463414
+          }
+        },
+        "2015": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 7945,
+              "published_rate": 48.8,
+              "rate": 48.77363618292919
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 19240,
+              "published_rate": 35.2,
+              "rate": 35.20037088457306
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 4427,
+              "published_rate": 25.5,
+              "rate": 25.508669490386684
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 49787,
+              "published_rate": 58.7,
+              "rate": 58.68332589325995
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 24051,
+              "published_rate": 80.3,
+              "rate": 80.33681672202941
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 278,
+              "published_rate": 33.5,
+              "rate": 33.4932495439858
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 1051,
+              "published_rate": 33.6,
+              "rate": 33.603149679810905
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 1000,
+              "published_rate": 25.4,
+              "rate": 25.370324280947926
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 103,
+              "published_rate": 14.0,
+              "rate": 14.037306527074966
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 3304,
+              "published_rate": 23.4,
+              "rate": 23.36364997914667
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 2877,
+              "published_rate": 32.7,
+              "rate": 32.71192798327496
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 2836,
+              "published_rate": 100.7,
+              "rate": 100.66086198494277
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 1588,
+              "published_rate": 41.4,
+              "rate": 41.421995183780105
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 2400,
+              "published_rate": 34.0,
+              "rate": 34.0112194510164
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 797,
+              "published_rate": 11.8,
+              "rate": 11.760888302697229
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 11344,
+              "published_rate": 55.2,
+              "rate": 55.22885138838195
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 1645,
+              "published_rate": 59.7,
+              "rate": 59.666022612153085
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 1064,
+              "published_rate": 29.1,
+              "rate": 29.08177308071914
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 2311,
+              "published_rate": 28.5,
+              "rate": 28.460131985555403
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 3192,
+              "published_rate": 80.3,
+              "rate": 80.30821043267055
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 3484,
+              "published_rate": 38.5,
+              "rate": 38.459283992780165
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 965,
+              "published_rate": 29.5,
+              "rate": 29.49988673877682
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 7959,
+              "published_rate": 69.5,
+              "rate": 69.54505180708784
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 11963,
+              "published_rate": 74.5,
+              "rate": 74.51180535321511
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 2450,
+              "published_rate": 74.2,
+              "rate": 74.18107873821921
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 275,
+              "published_rate": 17.4,
+              "rate": 17.39189828458964
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 146,
+              "published_rate": 22.9,
+              "rate": 22.930484508573016
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 11854,
+              "published_rate": 108.9,
+              "rate": 108.92252249272143
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 4238,
+              "published_rate": 55.7,
+              "rate": 55.68724006653561
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 1120,
+              "published_rate": 50.7,
+              "rate": 50.6786413056266
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 24892,
+              "published_rate": 56.0,
+              "rate": 56.04887663793565
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 314,
+              "published_rate": 20.8,
+              "rate": 20.774615272650287
+            }
+          },
+          "brasil": {
+            "count": 105450,
+            "population": 203080756,
+            "rate": 51.92515631564815
+          }
+        },
+        "2018": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 7241,
+              "published_rate": 44.5,
+              "rate": 44.45184387672628
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 18158,
+              "published_rate": 33.2,
+              "rate": 33.220807407592396
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 4810,
+              "published_rate": 27.7,
+              "rate": 27.71554105461033
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 47899,
+              "published_rate": 56.5,
+              "rate": 56.457963463580015
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 23120,
+              "published_rate": 77.2,
+              "rate": 77.22702601194626
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 207,
+              "published_rate": 24.9,
+              "rate": 24.93921818562971
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 965,
+              "published_rate": 30.9,
+              "rate": 30.853510410102302
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 1085,
+              "published_rate": 27.5,
+              "rate": 27.5268018448285
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 130,
+              "published_rate": 17.7,
+              "rate": 17.716988820580056
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 3082,
+              "published_rate": 21.8,
+              "rate": 21.79381635463984
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 2548,
+              "published_rate": 29.0,
+              "rate": 28.971147897596317
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 2480,
+              "published_rate": 88.0,
+              "rate": 88.02501330136037
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 1470,
+              "published_rate": 38.3,
+              "rate": 38.34403836281911
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 2089,
+              "published_rate": 29.6,
+              "rate": 29.603932263822198
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 644,
+              "published_rate": 9.5,
+              "rate": 9.503151903308675
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 10037,
+              "published_rate": 48.9,
+              "rate": 48.865654212375674
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 1358,
+              "published_rate": 49.3,
+              "rate": 49.25620590109658
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 1314,
+              "published_rate": 35.9,
+              "rate": 35.91489645494826
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 2559,
+              "published_rate": 31.5,
+              "rate": 31.514269905251528
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 3331,
+              "published_rate": 83.8,
+              "rate": 83.80534115013333
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 3436,
+              "published_rate": 37.9,
+              "rate": 37.929420149022
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 745,
+              "published_rate": 22.8,
+              "rate": 22.774523958952056
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 7921,
+              "published_rate": 69.2,
+              "rate": 69.21301110239261
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 11494,
+              "published_rate": 71.6,
+              "rate": 71.59062866587432
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 2304,
+              "published_rate": 69.8,
+              "rate": 69.76049200524778
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 381,
+              "published_rate": 24.1,
+              "rate": 24.09568453246783
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 146,
+              "published_rate": 22.9,
+              "rate": 22.930484508573016
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 10817,
+              "published_rate": 99.4,
+              "rate": 99.3938692258957
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 4382,
+              "published_rate": 57.6,
+              "rate": 57.57939735053304
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 1103,
+              "published_rate": 49.9,
+              "rate": 49.90941192866619
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 24898,
+              "published_rate": 56.1,
+              "rate": 56.06238673193483
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 302,
+              "published_rate": 20.0,
+              "rate": 19.980680931020338
+            }
+          },
+          "brasil": {
+            "count": 101228,
+            "population": 203080756,
+            "rate": 49.84618040322837
+          }
+        },
+        "2022": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 6969,
+              "published_rate": 42.8,
+              "rate": 42.782060485693336
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 17941,
+              "published_rate": 32.8,
+              "rate": 32.8237969875325
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 4884,
+              "published_rate": 28.1,
+              "rate": 28.14193399391203
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 46684,
+              "published_rate": 55.0,
+              "rate": 55.025857874564586
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 21807,
+              "published_rate": 72.8,
+              "rate": 72.84125243263462
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 198,
+              "published_rate": 23.9,
+              "rate": 23.854904351471898
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 791,
+              "published_rate": 25.3,
+              "rate": 25.290286771389557
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 1084,
+              "published_rate": 27.5,
+              "rate": 27.501431520547552
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 192,
+              "published_rate": 26.2,
+              "rate": 26.16662964270285
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 3623,
+              "published_rate": 25.6,
+              "rate": 25.619401899046125
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 2774,
+              "published_rate": 31.5,
+              "rate": 31.540802302956116
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 2348,
+              "published_rate": 83.3,
+              "rate": 83.33981098048152
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 1153,
+              "published_rate": 30.1,
+              "rate": 30.075289953966287
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 2083,
+              "published_rate": 29.5,
+              "rate": 29.518904215194656
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 877,
+              "published_rate": 12.9,
+              "rate": 12.941404067083397
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 9762,
+              "published_rate": 47.5,
+              "rate": 47.52680247297114
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 1557,
+              "published_rate": 56.5,
+              "rate": 56.47416243594063
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 981,
+              "published_rate": 26.8,
+              "rate": 26.81317612047507
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 2589,
+              "published_rate": 31.9,
+              "rate": 31.883722072956704
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 2380,
+              "published_rate": 59.9,
+              "rate": 59.87892883137716
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 3687,
+              "published_rate": 40.7,
+              "rate": 40.700166498674065
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 697,
+              "published_rate": 21.3,
+              "rate": 21.30717207971756
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 7118,
+              "published_rate": 62.2,
+              "rate": 62.19646673738551
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 12282,
+              "published_rate": 76.5,
+              "rate": 76.49870378234456
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 2020,
+              "published_rate": 61.2,
+              "rate": 61.161542469878704
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 301,
+              "published_rate": 19.0,
+              "rate": 19.03622321331448
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 134,
+              "published_rate": 21.0,
+              "rate": 21.045787151704
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 10828,
+              "published_rate": 99.5,
+              "rate": 99.49494462216867
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 3861,
+              "published_rate": 50.7,
+              "rate": 50.73346717718121
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 1092,
+              "published_rate": 49.4,
+              "rate": 49.41167527298593
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 23487,
+              "published_rate": 52.9,
+              "rate": 52.8852629597941
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 386,
+              "published_rate": 25.5,
+              "rate": 25.538221322429965
+            }
+          },
+          "brasil": {
+            "count": 98285,
+            "population": 203080756,
+            "rate": 48.39700320989547
+          }
+        },
+        "2024": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 7860,
+              "published_rate": 48.3,
+              "rate": 48.251828873231396
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 20442,
+              "published_rate": 37.4,
+              "rate": 37.39947929430575
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 5682,
+              "published_rate": 32.7,
+              "rate": 32.74006325827358
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 48689,
+              "published_rate": 57.4,
+              "rate": 57.38912676837194
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 23035,
+              "published_rate": 76.9,
+              "rate": 76.94310312219646
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 325,
+              "published_rate": 39.2,
+              "rate": 39.155777344587705
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 1030,
+              "published_rate": 32.9,
+              "rate": 32.93172613720764
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 1271,
+              "published_rate": 32.2,
+              "rate": 32.245682161084815
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 199,
+              "published_rate": 27.1,
+              "rate": 27.120621348426393
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 4255,
+              "published_rate": 30.1,
+              "rate": 30.08847780304754
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 3106,
+              "published_rate": 35.3,
+              "rate": 35.31569284534308
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 2456,
+              "published_rate": 87.2,
+              "rate": 87.17315833392786
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 1212,
+              "published_rate": 31.6,
+              "rate": 31.61426836444678
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 2428,
+              "published_rate": 34.4,
+              "rate": 34.40801701127826
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 954,
+              "published_rate": 14.1,
+              "rate": 14.077650490305087
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 10471,
+              "published_rate": 51.0,
+              "rate": 50.978605684745006
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 1802,
+              "published_rate": 65.4,
+              "rate": 65.36059133562301
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 1174,
+              "published_rate": 32.1,
+              "rate": 32.08834736537995
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 3122,
+              "published_rate": 38.4,
+              "rate": 38.447655585852004
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 2565,
+              "published_rate": 64.5,
+              "rate": 64.53338338339597
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 4011,
+              "published_rate": 44.3,
+              "rate": 44.27674744404169
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 817,
+              "published_rate": 25.0,
+              "rate": 24.975551777803794
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 7713,
+              "published_rate": 67.4,
+              "rate": 67.39552513985029
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 13035,
+              "published_rate": 81.2,
+              "rate": 81.18878063856548
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 2238,
+              "published_rate": 67.8,
+              "rate": 67.76214457801412
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 226,
+              "published_rate": 14.3,
+              "rate": 14.292978226608213
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 191,
+              "published_rate": 30.0,
+              "rate": 29.99809959683182
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 11393,
+              "published_rate": 104.7,
+              "rate": 104.6865445216446
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 3929,
+              "published_rate": 51.6,
+              "rate": 51.626985894624454
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 1466,
+              "published_rate": 66.3,
+              "rate": 66.33472156611481
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 23971,
+              "published_rate": 54.0,
+              "rate": 53.97507720906136
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 348,
+              "published_rate": 23.0,
+              "rate": 23.024095907268467
+            }
+          },
+          "brasil": {
+            "count": 105708,
+            "population": 203080756,
+            "rate": 52.05219937235215
+          }
+        }
+      }
+    },
+    "programas": {
+      "per": 1000000,
+      "years": {
+        "2015": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 322,
+              "published_rate": 19.8,
+              "rate": 19.767288673257646
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 785,
+              "published_rate": 14.4,
+              "rate": 14.361897684194311
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 207,
+              "published_rate": 11.9,
+              "rate": 11.927478166952888
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 1796,
+              "published_rate": 21.2,
+              "rate": 21.16923158742139
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 836,
+              "published_rate": 27.9,
+              "rate": 27.92465127421587
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 8,
+              "published_rate": 9.6,
+              "rate": 9.638345192513897
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 34,
+              "published_rate": 10.9,
+              "rate": 10.870666880243297
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 56,
+              "published_rate": 14.2,
+              "rate": 14.207381597330839
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 4,
+              "published_rate": 5.5,
+              "rate": 5.451381175563094
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 168,
+              "published_rate": 11.9,
+              "rate": 11.879822023294917
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 107,
+              "published_rate": 12.2,
+              "rate": 12.166062892632675
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 109,
+              "published_rate": 38.7,
+              "rate": 38.68841310422694
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 67,
+              "published_rate": 17.5,
+              "rate": 17.476534491897148
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 98,
+              "published_rate": 13.9,
+              "rate": 13.887914609165032
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 41,
+              "published_rate": 6.1,
+              "rate": 6.050143292479126
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 398,
+              "published_rate": 19.4,
+              "rate": 19.37683608301835
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 64,
+              "published_rate": 23.2,
+              "rate": 23.213528554272322
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 51,
+              "published_rate": 13.9,
+              "rate": 13.939571683427408
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 97,
+              "published_rate": 11.9,
+              "rate": 11.94562008913403
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 102,
+              "published_rate": 25.7,
+              "rate": 25.662398070590214
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 156,
+              "published_rate": 17.2,
+              "rate": 17.220574922140372
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 37,
+              "published_rate": 11.3,
+              "rate": 11.310837402432563
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 306,
+              "published_rate": 26.7,
+              "rate": 26.738014641247496
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 457,
+              "published_rate": 28.5,
+              "rate": 28.46434426683884
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 93,
+              "published_rate": 28.2,
+              "rate": 28.158531929201576
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 11,
+              "published_rate": 7.0,
+              "rate": 6.956759313835856
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 11,
+              "published_rate": 17.3,
+              "rate": 17.27639243796597
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 375,
+              "published_rate": 34.5,
+              "rate": 34.457521456698615
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 155,
+              "published_rate": 20.4,
+              "rate": 20.366970765250162
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 47,
+              "published_rate": 21.3,
+              "rate": 21.26692983361116
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 874,
+              "published_rate": 19.7,
+              "rate": 19.67970359214035
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 20,
+              "published_rate": 13.2,
+              "rate": 13.232239027165786
+            }
+          },
+          "brasil": {
+            "count": 3946,
+            "population": 203080756,
+            "rate": 19.430693866434098
+          }
+        },
+        "2018": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 358,
+              "published_rate": 22.0,
+              "rate": 21.977296102565955
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 882,
+              "published_rate": 16.1,
+              "rate": 16.1365525572731
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 244,
+              "published_rate": 14.1,
+              "rate": 14.059442863461374
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 1940,
+              "published_rate": 22.9,
+              "rate": 22.866541915143372
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 939,
+              "published_rate": 31.4,
+              "rate": 31.365128644125235
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 10,
+              "published_rate": 12.0,
+              "rate": 12.047931490642371
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 41,
+              "published_rate": 13.1,
+              "rate": 13.108745355587507
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 60,
+              "published_rate": 15.2,
+              "rate": 15.222194568568757
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 7,
+              "published_rate": 9.5,
+              "rate": 9.539917057235414
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 184,
+              "published_rate": 13.0,
+              "rate": 13.011233644561099
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 128,
+              "published_rate": 14.6,
+              "rate": 14.55379486221479
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 117,
+              "published_rate": 41.5,
+              "rate": 41.52792966233534
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 76,
+              "published_rate": 19.8,
+              "rate": 19.824128677375867
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 107,
+              "published_rate": 15.2,
+              "rate": 15.163335338578145
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 50,
+              "published_rate": 7.4,
+              "rate": 7.378223527413568
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 444,
+              "published_rate": 21.6,
+              "rate": 21.61636990165866
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 73,
+              "published_rate": 26.5,
+              "rate": 26.477931007216867
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 61,
+              "published_rate": 16.7,
+              "rate": 16.672821033119053
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 117,
+              "published_rate": 14.4,
+              "rate": 14.408634540501872
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 110,
+              "published_rate": 27.7,
+              "rate": 27.675135174165916
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 166,
+              "published_rate": 18.3,
+              "rate": 18.32445792996988
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 41,
+              "published_rate": 12.5,
+              "rate": 12.533630635127976
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 345,
+              "published_rate": 30.1,
+              "rate": 30.145800821014333
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 493,
+              "published_rate": 30.7,
+              "rate": 30.706612086546052
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 108,
+              "published_rate": 32.7,
+              "rate": 32.7002306274599
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 12,
+              "published_rate": 7.6,
+              "rate": 7.589191978730025
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 13,
+              "published_rate": 20.4,
+              "rate": 20.417554699414328
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 418,
+              "published_rate": 38.4,
+              "rate": 38.40865058373338
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 176,
+              "published_rate": 23.1,
+              "rate": 23.126366804413088
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 54,
+              "published_rate": 24.4,
+              "rate": 24.434344915212822
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 927,
+              "published_rate": 20.9,
+              "rate": 20.873095228734673
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 25,
+              "published_rate": 16.5,
+              "rate": 16.540298783957233
+            }
+          },
+          "brasil": {
+            "count": 4363,
+            "population": 203080756,
+            "rate": 21.484064201533702
+          }
+        },
+        "2022": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 396,
+              "published_rate": 24.3,
+              "rate": 24.310081722391388
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 958,
+              "published_rate": 17.5,
+              "rate": 17.52700379803586
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 289,
+              "published_rate": 16.7,
+              "rate": 16.65237289975548
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 1970,
+              "published_rate": 23.2,
+              "rate": 23.220148233418783
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 981,
+              "published_rate": 32.8,
+              "rate": 32.768041746418376
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 15,
+              "published_rate": 18.1,
+              "rate": 18.071897235963554
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 45,
+              "published_rate": 14.4,
+              "rate": 14.387647341498482
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 63,
+              "published_rate": 16.0,
+              "rate": 15.983304296997193
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 10,
+              "published_rate": 13.6,
+              "rate": 13.628452938907733
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 208,
+              "published_rate": 14.7,
+              "rate": 14.708351076460374
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 146,
+              "published_rate": 16.6,
+              "rate": 16.600422264713746
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 123,
+              "published_rate": 43.7,
+              "rate": 43.65756708091664
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 74,
+              "published_rate": 19.3,
+              "rate": 19.302441080602822
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 127,
+              "published_rate": 18.0,
+              "rate": 17.99760362616285
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 66,
+              "published_rate": 9.7,
+              "rate": 9.73925505618591
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 472,
+              "published_rate": 23.0,
+              "rate": 22.97956439996146
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 80,
+              "published_rate": 29.0,
+              "rate": 29.016910692840405
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 66,
+              "published_rate": 18.0,
+              "rate": 18.03944570796488
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 141,
+              "published_rate": 17.4,
+              "rate": 17.364251882143282
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 113,
+              "published_rate": 28.4,
+              "rate": 28.429911588006803
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 166,
+              "published_rate": 18.3,
+              "rate": 18.32445792996988
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 45,
+              "published_rate": 13.8,
+              "rate": 13.756423867823388
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 370,
+              "published_rate": 32.3,
+              "rate": 32.33027914137769
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 510,
+              "published_rate": 31.8,
+              "rate": 31.765460779185577
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 114,
+              "published_rate": 34.5,
+              "rate": 34.51691010676323
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 17,
+              "published_rate": 10.8,
+              "rate": 10.751355303200869
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 14,
+              "published_rate": 22.0,
+              "rate": 21.988135830138507
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 424,
+              "published_rate": 39.0,
+              "rate": 38.95997092704056
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 187,
+              "published_rate": 24.6,
+              "rate": 24.57176472968891
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 55,
+              "published_rate": 24.9,
+              "rate": 24.88683278401306
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 914,
+              "published_rate": 20.6,
+              "rate": 20.580376525419087
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 29,
+              "published_rate": 19.2,
+              "rate": 19.18674658939039
+            }
+          },
+          "brasil": {
+            "count": 4594,
+            "population": 203080756,
+            "rate": 22.621542732488155
+          }
+        },
+        "2024": {
+          "regiao": {
+            "Centro-Oeste": {
+              "name": "Centro-Oeste",
+              "region": null,
+              "population": 16289538,
+              "count": 405,
+              "published_rate": 24.9,
+              "rate": 24.862583579718468
+            },
+            "Nordeste": {
+              "name": "Nordeste",
+              "region": null,
+              "population": 54658515,
+              "count": 962,
+              "published_rate": 17.6,
+              "rate": 17.60018544228653
+            },
+            "Norte": {
+              "name": "Norte",
+              "region": null,
+              "population": 17354884,
+              "count": 312,
+              "published_rate": 18.0,
+              "rate": 17.97764825163914
+            },
+            "Sudeste": {
+              "name": "Sudeste",
+              "region": null,
+              "population": 84840113,
+              "count": 1970,
+              "published_rate": 23.2,
+              "rate": 23.220148233418783
+            },
+            "Sul": {
+              "name": "Sul",
+              "region": null,
+              "population": 29937706,
+              "count": 986,
+              "published_rate": 32.9,
+              "rate": 32.93505521097709
+            }
+          },
+          "uf": {
+            "AC": {
+              "name": "Acre",
+              "region": "Norte",
+              "population": 830018,
+              "count": 15,
+              "published_rate": 18.1,
+              "rate": 18.071897235963554
+            },
+            "AL": {
+              "name": "Alagoas",
+              "region": "Nordeste",
+              "population": 3127683,
+              "count": 47,
+              "published_rate": 15.0,
+              "rate": 15.02709833445397
+            },
+            "AM": {
+              "name": "Amazonas",
+              "region": "Norte",
+              "population": 3941613,
+              "count": 69,
+              "published_rate": 17.5,
+              "rate": 17.505523753854067
+            },
+            "AP": {
+              "name": "Amapá",
+              "region": "Norte",
+              "population": 733759,
+              "count": 12,
+              "published_rate": 16.4,
+              "rate": 16.35414352668928
+            },
+            "BA": {
+              "name": "Bahia",
+              "region": "Nordeste",
+              "population": 14141626,
+              "count": 211,
+              "published_rate": 14.9,
+              "rate": 14.920490755447782
+            },
+            "CE": {
+              "name": "Ceará",
+              "region": "Nordeste",
+              "population": 8794957,
+              "count": 147,
+              "published_rate": 16.7,
+              "rate": 16.714123787074797
+            },
+            "DF": {
+              "name": "Distrito Federal",
+              "region": "Centro-Oeste",
+              "population": 2817381,
+              "count": 126,
+              "published_rate": 44.7,
+              "rate": 44.722385790207284
+            },
+            "ES": {
+              "name": "Espírito Santo",
+              "region": "Sudeste",
+              "population": 3833712,
+              "count": 75,
+              "published_rate": 19.6,
+              "rate": 19.563284878989343
+            },
+            "GO": {
+              "name": "Goiás",
+              "region": "Centro-Oeste",
+              "population": 7056495,
+              "count": 127,
+              "published_rate": 18.0,
+              "rate": 17.99760362616285
+            },
+            "MA": {
+              "name": "Maranhão",
+              "region": "Nordeste",
+              "population": 6776699,
+              "count": 69,
+              "published_rate": 10.2,
+              "rate": 10.181948467830725
+            },
+            "MG": {
+              "name": "Minas Gerais",
+              "region": "Sudeste",
+              "population": 20539989,
+              "count": 475,
+              "published_rate": 23.1,
+              "rate": 23.125620953351046
+            },
+            "MS": {
+              "name": "Mato Grosso do Sul",
+              "region": "Centro-Oeste",
+              "population": 2757013,
+              "count": 83,
+              "published_rate": 30.1,
+              "rate": 30.10504484382192
+            },
+            "MT": {
+              "name": "Mato Grosso",
+              "region": "Centro-Oeste",
+              "population": 3658649,
+              "count": 69,
+              "published_rate": 18.9,
+              "rate": 18.859420512872372
+            },
+            "PA": {
+              "name": "Pará",
+              "region": "Norte",
+              "population": 8120131,
+              "count": 152,
+              "published_rate": 18.7,
+              "rate": 18.718909830395592
+            },
+            "PB": {
+              "name": "Paraíba",
+              "region": "Nordeste",
+              "population": 3974687,
+              "count": 111,
+              "published_rate": 27.9,
+              "rate": 27.92672731211288
+            },
+            "PE": {
+              "name": "Pernambuco",
+              "region": "Nordeste",
+              "population": 9058931,
+              "count": 165,
+              "published_rate": 18.2,
+              "rate": 18.214069629186934
+            },
+            "PI": {
+              "name": "Piauí",
+              "region": "Nordeste",
+              "population": 3271199,
+              "count": 46,
+              "published_rate": 14.1,
+              "rate": 14.062122175997242
+            },
+            "PR": {
+              "name": "Paraná",
+              "region": "Sul",
+              "population": 11444380,
+              "count": 375,
+              "published_rate": 32.8,
+              "rate": 32.76717480545036
+            },
+            "RJ": {
+              "name": "Rio de Janeiro",
+              "region": "Sudeste",
+              "population": 16055174,
+              "count": 517,
+              "published_rate": 32.2,
+              "rate": 32.2014572996842
+            },
+            "RN": {
+              "name": "Rio Grande do Norte",
+              "region": "Nordeste",
+              "population": 3302729,
+              "count": 111,
+              "published_rate": 33.6,
+              "rate": 33.60857036711156
+            },
+            "RO": {
+              "name": "Rondônia",
+              "region": "Norte",
+              "population": 1581196,
+              "count": 20,
+              "published_rate": 12.6,
+              "rate": 12.648653297883374
+            },
+            "RR": {
+              "name": "Roraima",
+              "region": "Norte",
+              "population": 636707,
+              "count": 14,
+              "published_rate": 22.0,
+              "rate": 21.988135830138507
+            },
+            "RS": {
+              "name": "Rio Grande do Sul",
+              "region": "Sul",
+              "population": 10882965,
+              "count": 425,
+              "published_rate": 39.1,
+              "rate": 39.05185765092509
+            },
+            "SC": {
+              "name": "Santa Catarina",
+              "region": "Sul",
+              "population": 7610361,
+              "count": 186,
+              "published_rate": 24.4,
+              "rate": 24.440364918300197
+            },
+            "SE": {
+              "name": "Sergipe",
+              "region": "Nordeste",
+              "population": 2210004,
+              "count": 55,
+              "published_rate": 24.9,
+              "rate": 24.88683278401306
+            },
+            "SP": {
+              "name": "São Paulo",
+              "region": "Sudeste",
+              "population": 44411238,
+              "count": 903,
+              "published_rate": 20.3,
+              "rate": 20.332691468767432
+            },
+            "TO": {
+              "name": "Tocantins",
+              "region": "Norte",
+              "population": 1511460,
+              "count": 30,
+              "published_rate": 19.8,
+              "rate": 19.84835854074868
+            }
+          },
+          "brasil": {
+            "count": 4635,
+            "population": 203080756,
+            "rate": 22.823432861358857
+          }
+        }
+      }
+    }
+  }
+}

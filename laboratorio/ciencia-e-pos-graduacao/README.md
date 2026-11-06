@@ -4,7 +4,7 @@
 
 ## English
 
-Eight-card bilingual adaptation by Nathan Damas Antonio: an introduction, federal investment, GDP share, CAPES scholarship holders abroad, postgraduate programmes, enrolments, degrees awarded and methods. Six national datasets cover 2000–2023 (investment and GDP share) or 2000–2024 (the other views). This is a dated pilot, not a live monitoring system.
+Nine-card bilingual adaptation by Nathan Damas Antonio: an introduction, federal investment, GDP share, CAPES scholarship holders abroad, postgraduate programmes, enrolments, degrees awarded, a territorial map and methods. Six national datasets cover 2000–2023 (investment and GDP share) or 2000–2024 (the other views). This is a dated pilot, not a live monitoring system.
 
 ### Attribution and licenses
 
@@ -12,7 +12,7 @@ Derived data: **Alexandre Ribeiro Cajazeira Ramos**, *Ciência e pós-graduaçã
 
 The original product declares **MIT for code** and **CC BY 4.0 for derived data**. The derived data here remain under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The upstream MIT notice is retained in `LICENSE-UPSTREAM-MIT.txt`. The new interface and preparation script are MIT, copyright 2026 Nathan Damas Antonio; see [../LICENSE](../LICENSE). The new bilingual narrative is CC BY 4.0, attribution Nathan Damas Antonio. No portfolio photographs or prose were copied, and the original author does not endorse this adaptation.
 
-Changes: six national datasets selected; maps, government comparisons and the original narrative omitted; new eight-card interface and original EN/PT explanatory text; investment totals recalculated from their two components. No scientific conclusion about government causality is made. No analytics scripts are included.
+Changes: six national datasets selected; four spatial indicators added; government comparisons and the original narrative omitted; new nine-card interface and original EN/PT explanatory text; investment totals recalculated from their two components. No scientific conclusion about government causality is made. No analytics scripts are included.
 
 ### What is verified
 
@@ -30,7 +30,8 @@ Python 3.11+; no third-party Python dependencies required:
 ```bash
 python3 analises/ciencia-e-pos-graduacao/prepare.py
 python3 analises/ciencia-e-pos-graduacao/prepare.py --check
-python3 -m unittest discover -s tests -p 'test_science_data.py'
+python3 analises/ciencia-e-pos-graduacao/spatial.py --check
+python3 -m unittest discover -s tests -p 'test_science*.py'
 ```
 
 To additionally check parity against the pinned upstream HTML, download this exact revision with TLS verification enabled:
@@ -38,9 +39,10 @@ To additionally check parity against the pinned upstream HTML, download this exa
 ```bash
 curl --fail --location https://raw.githubusercontent.com/cajazeiraalexandre/cajazeiraalexandre.github.io/cd79b6124949f6fbd4ac3ae884b8e6d10176d950/pilotos/ciencia-e-pos-graduacao/index.html --output /tmp/science-upstream.html
 python3 analises/ciencia-e-pos-graduacao/prepare.py --upstream-html /tmp/science-upstream.html --check
+python3 analises/ciencia-e-pos-graduacao/spatial.py --upstream-html /tmp/science-upstream.html --check
 ```
 
-To view locally, run `python3 -m http.server 8000` from the repository root and open `/laboratorio/`. Serve over HTTP; opening the HTML as a local file will not allow the JSON requests. The interface has no external JavaScript, font or chart dependencies.
+To view locally, run `python3 -m http.server 8000` from the repository root and open `/laboratorio/`. Serve over HTTP; opening the HTML as a local file will not allow the JSON requests. D3 7.9.0 is served locally under its ISC license (see `../assets/vendor/d3-LICENSE.txt`); the interface makes no third-party script or font requests.
 
 ### Data dictionary and reading notes
 
@@ -53,7 +55,7 @@ To view locally, run `python3 -m http.server 8000` from the repository root and 
 
 ## Português
 
-Adaptação bilíngue em oito cartões por Nathan Damas Antonio: introdução, investimento federal, participação no PIB, bolsistas da CAPES no exterior, programas, matrículas, titulações e métodos. Os seis conjuntos cobrem 2000–2023 (investimento e PIB) ou 2000–2024 (demais recortes). É um piloto com base datada, não um monitoramento em tempo real.
+Adaptação bilíngue em nove cartões por Nathan Damas Antonio: introdução, investimento federal, participação no PIB, bolsistas da CAPES no exterior, programas, matrículas, titulações, mapa territorial e métodos. Os seis conjuntos cobrem 2000–2023 (investimento e PIB) ou 2000–2024 (demais recortes). É um piloto com base datada, não um monitoramento em tempo real.
 
 ### Atribuição e licenças
 
@@ -61,7 +63,7 @@ Dados derivados: **Alexandre Ribeiro Cajazeira Ramos**, *Ciência e pós-gradua�
 
 A nova interface e o script de preparação são MIT, copyright 2026 Nathan Damas Antonio, conforme [../LICENSE](../LICENSE). A nova narrativa bilíngue é CC BY 4.0, com atribuição a Nathan Damas Antonio. Não foram copiados fotos ou textos do portfólio; a adaptação não implica endosso do autor original.
 
-Alterações: seleção de seis conjuntos nacionais; exclusão dos mapas, comparações entre governos e narrativa original; nova interface em oito cartões e textos próprios em EN/PT; recálculo do investimento total a partir dos componentes. Não são feitas conclusões causais sobre governos. Não há scripts de rastreamento de visitas.
+Alterações: seleção de seis conjuntos nacionais; inclusão de quatro indicadores espaciais; exclusão das comparações entre governos e da narrativa original; nova interface em nove cartões e textos próprios em EN/PT; recálculo do investimento total a partir dos componentes. Não são feitas conclusões causais sobre governos. Não há scripts de rastreamento de visitas.
 
 ### Conferência e reprodução
 
@@ -74,3 +76,15 @@ Os valores foram comparados com o HTML publicado na revisão fixada, identificad
 O CSV contém `dataset` (conjunto), `series` (indicador), `year` (ano), `value` (valor), `unit` (unidade) e `snapshot_date` (data da base). O JSON contém os mesmos números agrupados. `source-series.json` é a entrada numérica congelada. Downloads preservam a precisão; rótulos dos gráficos são arredondados.
 
 O investimento é empenhado, corrigido para reais de setembro de 2026, e exclui crédito reembolsável do FNDCT. A série total é a soma dos dois componentes, não uma terceira parcela. Participação no PIB é porcentagem; pontos percentuais diferem de variação percentual. Bolsistas não são valor financeiro nem bolsas-ano. Programas não são cursos, matrículas são estoques ao fim do ano e titulações são fluxos anuais.
+
+### Spatial map / Mapa espacial
+
+**EN.** Four indicators: doctoral graduates, master’s graduates and CAPES scholarships per 100,000 inhabitants; postgraduate programmes per million. Graduates cover selected years 2002, 2010, 2015, 2018, 2022 and 2024; scholarships omit 2002 and programmes omit 2002/2010. These are the years embedded in the reference map, not a complete annual series. The denominator is the **fixed 2022 Census population for every year**, so these are not contemporaneous population rates. Geography refers to the programme/institution, not graduates’ origins. The original researcher’s swap of Amazonas/Amapá graduate values is retained and disclosed, not independently validated. National means are population-weighted; regions aggregate state counts and populations. Colours use ratios to the national rate with thresholds 0.5, 0.85, 1.15 and 2. Missing years are absent, never interpolated or zero-filled. No municipal data are presented.
+
+**PT.** Quatro indicadores: doutores, mestres e bolsas da CAPES por 100 mil habitantes; programas de pós-graduação por milhão. Titulações: anos selecionados 2002, 2010, 2015, 2018, 2022 e 2024; bolsas excluem 2002 e programas excluem 2002/2010. São os anos presentes no mapa de referência, não uma série anual completa. O denominador é a **população fixa do Censo 2022 em todos os anos**, não a população contemporânea de cada ano. A localização corresponde ao programa/instituição, não à origem dos titulados. A troca de Amazonas/Amapá feita pelo pesquisador original foi preservada e informada, sem validação independente dessa decisão. Médias nacionais ponderam a população; regiões somam contagens e populações das UFs. As cores usam razões em relação à taxa nacional, com limites 0,5, 0,85, 1,15 e 2. Anos ausentes não são interpolados nem preenchidos com zero. Sem dados municipais.
+
+`source-spatial.json` preserves integer counts parsed from the reference’s published labels, populations and rounded rates. `spatial.py` verifies extraction against the pinned HTML, checks all regional sums and source rates, then rebuilds `spatial.json` and `spatial.csv`. `brazil.geojson` contains the source’s simplified UF and region geometry. These derived data and geometries retain the original attribution and CC BY 4.0 license; D3 has its own [ISC notice](../assets/vendor/d3-LICENSE.txt).
+
+`source-spatial.json` preserva contagens inteiras extraídas dos rótulos publicados, populações e taxas arredondadas. `spatial.py` confere a extração contra o HTML fixado, valida somas regionais e taxas e gera `spatial.json`/`spatial.csv`. `brazil.geojson` contém as geometrias simplificadas de UFs e regiões da referência. Dados e geometrias preservam atribuição e CC BY 4.0; D3 usa sua própria licença ISC.
+
+Spatial CSV columns / Colunas do CSV espacial: `measure`, `year`, `level`, `id`, `name`, `count`, `population_2022`, `rate`, `per_inhabitants`. 672 rows / linhas; 21 indicator-year combinations / combinações de indicador e ano × 32 territories / territórios.

@@ -3,7 +3,7 @@
   const $ = selector => document.querySelector(selector);
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let translations, data, provenance, lang = 'en', index = 0, selectedYear;
-  const ids = ['overview','investment','share','abroad','programmes','enrolment','graduates','methods'];
+  const ids = ['overview','investment','share','abroad','programmes','enrolment','graduates','spatial','methods'];
   const aliases = {'c1-1':'investment','c1-3':'share','c2-3':'abroad','c3-1':'programmes','c3-2':'enrolment','c3-3':'graduates'};
   const t = () => translations[lang];
   const locale = () => lang === 'pt' ? 'pt-BR' : 'en-US';
@@ -17,19 +17,20 @@
     lang = new URLSearchParams(location.search).get('lang') === 'pt' ? 'pt' : 'en';
     const hash = new URLSearchParams(location.hash.slice(1));
     const id = aliases[hash.get('cartao')] || hash.get('cartao');
-    index = Math.max(0, ids.indexOf(id)); selectedYear = Number(hash.get('year')) || undefined;
+    index = Math.max(0, ids.indexOf(id)); selectedYear = Number(hash.get('year')) || undefined; ScienceMap.read(hash);
   }
   function writeURL(replace = false) {
     const url = new URL(location.href); url.searchParams.set('lang',lang);
     const hash = new URLSearchParams({cartao:ids[index]});
     if (data.datasets[ids[index]] && selectedYear) hash.set('year',selectedYear);
+    if(ids[index]==='spatial')ScienceMap.write(hash);
     url.hash = hash.toString(); history[replace ? 'replaceState' : 'pushState'](null,'',url);
   }
-  function go(next) { if(!data)return; index = Math.max(0,Math.min(7,next)); selectedYear = undefined; writeURL(); render(true); }
+  function go(next) { if(!data)return; index = Math.max(0,Math.min(ids.length-1,next)); selectedYear = undefined; writeURL(); render(true); }
   function methods() {
     const p = t();
     return `<p class="description">${escape(p.methodsIntro)}</p><ol class="methods">${p.methodItems.map(item=>`<li>${escape(item)}</li>`).join('')}</ol>
-      <h3>${escape(p.primary)}</h3><ul>${provenance.primary_sources.map(s=>`<li><a href="${escape(s.url)}">${escape(s.id === 'mcti.indicadores_cti' ? 'MCTI · CT&I 2025' : 'IBGE · IPCA · SIDRA 1737')}</a></li>`).join('')}</ul>
+      <h3>${escape(p.primary)}</h3><ul>${provenance.primary_sources.map(s=>`<li><a href="${escape(s.url)}">${escape(s.label || (s.id === 'mcti.indicadores_cti' ? 'MCTI · CT&I 2025' : 'IBGE · IPCA · SIDRA 1737'))}</a></li>`).join('')}</ul>
       <h3>${escape(p.files)}</h3><p><a href="README.md">${escape(p.readme)}</a> · <a href="https://github.com/nathandamas/nathandamas.github.io/blob/master/analises/ciencia-e-pos-graduacao/prepare.py">${escape(p.code)}</a> · <a href="data/provenance.json">${escape(p.provenance)}</a></p><p class="notice">${escape(p.license)}<br>${escape(p.verification)}</p>`;
   }
   function stats(dataset) {
@@ -74,18 +75,20 @@
     document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));
     $('#steps').innerHTML = p.cards.map((c,i)=>`<button data-card="${i}" ${i===index?'aria-current="step"':''}><span>${String(i+1).padStart(2,'0')}</span>${escape(c.nav)}</button>`).join('');
     $('#steps').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>go(Number(b.dataset.card))));
-    $('#progress').style.width = `${(index+1)/8*100}%`;
+    $('#progress').style.width = `${(index+1)/ids.length*100}%`;
     let body = '';
-    if(card.id==='overview') body=`<p class="lead">${escape(p.overviewText)}</p><div class="stats">${['8','6','EN / PT'].map((v,i)=>`<div class="stat"><strong>${v}</strong><span>${escape(p.statLabels[i])}</span></div>`).join('')}</div><p class="notice">${escape(p.overviewNote)}</p><p class="small">${escape(p.credit)}</p>`;
+    if(card.id==='overview') body=`<p class="lead">${escape(p.overviewText)}</p><div class="stats">${[String(ids.length),'6 + 1','EN / PT'].map((v,i)=>`<div class="stat"><strong>${v}</strong><span>${escape(p.statLabels[i])}</span></div>`).join('')}</div><p class="notice">${escape(p.overviewNote)}</p><p class="small">${escape(p.credit)}</p>`;
+    else if(card.id==='spatial') body=`<p class="description">${escape(card.description)}</p><div id="spatial"></div>`;
     else if(card.id==='methods') body=methods();
     else body=`<p class="description">${escape(card.description)}</p>${stats(dataset)}<p class="small">${escape(p.units[dataset.unit])}${dataset.unit==='BRL_September_2026'?` · ${lang==='pt'?'eixo em bilhões':'axis in billions'}`:''}</p><div id="plot"></div><div class="legend">${dataset.series.map(s=>`<span>${escape(p.series[s.id])}</span>`).join('')}</div><div class="year-control"><label for="year">${escape(p.year)} · <strong id="year-value"></strong></label><input id="year" type="range" min="0" max="${dataset.years.length-1}" step="1"></div><div class="readout" id="readout" aria-live="polite"></div><p class="notice">${escape(card.note)}</p>${table(dataset)}`;
-    $('#content').innerHTML=`<p class="eyebrow">${String(index+1).padStart(2,'0')} / 08 · ${escape(p.title)}</p><h1 id="card-title" tabindex="-1" style="font-size:clamp(1.8rem,3.7vw,3rem)">${escape(card.title)}</h1>${body}`;
+    $('#content').innerHTML=`<p class="eyebrow">${String(index+1).padStart(2,'0')} / ${String(ids.length).padStart(2,'0')} · ${escape(p.title)}</p><h1 id="card-title" tabindex="-1" style="font-size:clamp(1.8rem,3.7vw,3rem)">${escape(card.title)}</h1>${body}`;
     $('#previous').textContent=p.previous; $('#previous').disabled=index===0;
-    $('#next').textContent=p.next; $('#next').disabled=index===7;
-    $('#counter').textContent=`${index+1} ${p.of} 8`;
+    $('#next').textContent=p.next; $('#next').disabled=index===ids.length-1;
+    $('#counter').textContent=`${index+1} ${p.of} ${ids.length}`;
     $('#share').textContent=p.copy; $('#status').replaceChildren();
     $('.tools a[href="data/series.csv"]').textContent=p.csv; $('.tools a[href="data/series.json"]').textContent=p.json; $('.tools a[href="data/provenance.json"]').textContent=p.provenance;
     if(dataset){chart(dataset); $('#year').addEventListener('input',event=>{selectedYear=dataset.years[Number(event.target.value)];chart(dataset);writeURL(true);});}
+    if(card.id==='spatial')ScienceMap.mount($('#spatial'),lang,()=>writeURL(true));
     if(focus){$('#card-title').focus({preventScroll:true});$('#main').scrollIntoView({block:'start'});}
   }
   $('#previous').addEventListener('click',()=>go(index-1)); $('#next').addEventListener('click',()=>go(index+1));
@@ -96,6 +99,7 @@
     catch{const field=document.createElement('input');field.value=location.href;field.readOnly=true;field.className='copy-fallback';field.setAttribute('aria-label',t().copy);$('#status').textContent=t().copyFallback;$('#status').append(field);field.focus();field.select();}
   });
   document.addEventListener('keydown',event=>{
+    if(event.target.closest?.('#brazil-map'))return;
     if(!data||event.altKey||event.ctrlKey||event.metaKey||/INPUT|TEXTAREA|SELECT|BUTTON|A/.test(event.target.tagName))return;
     if(event.key==='ArrowRight'){event.preventDefault();go(index+1);}if(event.key==='ArrowLeft'){event.preventDefault();go(index-1);}
   });
@@ -103,7 +107,7 @@
   addEventListener('hashchange',()=>{if(data){readURL();render();}});
   addEventListener('resize',()=>{if(data && data.datasets[ids[index]]) chart(data.datasets[ids[index]]);});
   const load = path => fetch(path).then(r=>{if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json();});
-  Promise.all([load('content.json'),load('data/series.json'),load('data/provenance.json')]).then(([copy,series,meta])=>{translations=copy;data=series;provenance=meta;readURL();render();}).catch(error=>{
+  Promise.all([load('content.json'),load('data/series.json'),load('data/provenance.json'),load('data/spatial.json'),load('data/brazil.geojson')]).then(([copy,series,meta,spatial,geometry])=>{ScienceMap.init(spatial,geometry);translations=copy;data=series;provenance=meta;readURL();render();}).catch(error=>{
     $('#content').innerHTML='<div class="error"><h1>Data unavailable / Dados indisponíveis</h1><p>Reload this page or download the CSV below. / Recarregue a página ou baixe o CSV abaixo.</p></div>';$('#previous').disabled=true;$('#next').disabled=true;console.error(error);
   });
 })();

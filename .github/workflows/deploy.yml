@@ -43,7 +43,8 @@ jobs:
       - name: Validate and include the interactive laboratory
         run: |
           python3 analises/ciencia-e-pos-graduacao/prepare.py --check
-          python3 -m unittest discover -s tests -p 'test_science_data.py'
+          python3 analises/ciencia-e-pos-graduacao/spatial.py --check
+          python3 -m unittest discover -s tests -p 'test_science*.py'
           cp -R laboratorio _build/html/laboratorio
 
       - name: Upload artifact
@@ -112,16 +113,24 @@ jobs:
                   for path in ('laboratorio/', 'laboratorio/ciencia-e-pos-graduacao/',
                                'laboratorio/assets/lab.css', 'laboratorio/assets/catalog.js',
                                'laboratorio/ciencia-e-pos-graduacao/story.js',
+                               'laboratorio/ciencia-e-pos-graduacao/spatial.js',
+                               'laboratorio/ciencia-e-pos-graduacao/data/brazil.geojson',
+                               'laboratorio/ciencia-e-pos-graduacao/data/spatial.csv',
+                               'laboratorio/assets/vendor/d3.v7.9.0.min.js',
                                'laboratorio/ciencia-e-pos-graduacao/data/series.csv'):
                       with urlopen(urljoin(base, path) + '?deploy=' + os.environ['GITHUB_SHA'], timeout=20) as response:
                           assert response.status == 200 and response.read(), 'Missing laboratory resource: ' + path
                   with urlopen(urljoin(base, 'laboratorio/ciencia-e-pos-graduacao/content.json'), timeout=20) as response:
                       story = json.load(response)
-                  assert len(story['en']['cards']) == len(story['pt']['cards']) == 8
+                  assert len(story['en']['cards']) == len(story['pt']['cards']) == 9
                   with urlopen(urljoin(base, 'laboratorio/ciencia-e-pos-graduacao/data/series.json'), timeout=20) as response:
                       series = json.load(response)
                   assert len(series['datasets']) == 6
-                  print('Verified live MyST homepage, 11 profile icons and bilingual eight-card laboratory:', base)
+                  with urlopen(urljoin(base, 'laboratorio/ciencia-e-pos-graduacao/data/spatial.json'), timeout=20) as response:
+                      spatial = json.load(response)
+                  assert len(spatial['measures']) == 4
+                  assert spatial['measures']['tit_doutorado']['years']['2024']['uf']['PR']['count'] == 1913
+                  print('Verified live MyST homepage, 11 profile icons and bilingual nine-card laboratory with spatial map:', base)
                   break
               except Exception as error:
                   if attempt == 11:

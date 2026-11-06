@@ -36,14 +36,14 @@
     "end": "Latest year",
     "peak": "Peak in this series",
     "selected": "Selected year",
-    "csv": "Download all data (CSV)",
-    "json": "Download data (JSON)",
+    "csv": "Time series (CSV)",
+    "json": "Time series (JSON)",
     "provenance": "Data provenance",
-    "overviewText": "What changed in federal science funding and in the scale of postgraduate education? Move through eight cards, inspect each annual value and download the data behind the charts.",
+    "overviewText": "What changed in federal science funding and in the scale of postgraduate education? Move through nine cards, inspect each annual value and download the data behind the charts.",
     "overviewNote": "Spending and GDP shares end in 2023. Education and international scholarships end in 2024. These are dated observations, not live indicators or estimates of government impact.",
     "statLabels": [
       "cards",
-      "data views",
+      "charts + map",
       "languages"
     ],
     "methodsIntro": "A traceable adaptation of a published dataset. The figures retain their original precision; chart labels are rounded for readability.",
@@ -51,8 +51,9 @@
       "Source: Alexandre Cajazeira’s published science and postgraduate education product, based on MCTI indicators and IPCA adjustment.",
       "We selected six national datasets and recomputed investment totals. Annual coverage, numeric integrity and all exported values are checked against the frozen published snapshot.",
       "The original agency files have not been independently re-downloaded or audited for this adaptation. The published snapshot, extraction code, checksums and source links make this step reproducible.",
-      "Changes: eight-card bilingual narrative, new interface and charts, national series only. No state-level maps or government-by-government causal comparisons.",
-      "Counts describe different populations: programmes are not courses; enrolments are year-end stocks; degrees awarded are annual flows. Scholarship holders abroad are not the monetary value of grants."
+      "Changes: nine bilingual cards, national series and a map with four indicators by state and region. No causal comparisons between governments.",
+      "Counts describe different populations: programmes are not courses; enrolments are year-end stocks; degrees awarded are annual flows. Scholarship holders abroad are not the monetary value of grants.",
+      "Map: rates recomputed using the fixed 2022 Census population in all years; graduates and scholarships per 100,000, programmes per million. The source author’s Amazonas/Amapá correction is retained. Regional sums and rounded source rates are checked."
     ],
     "primary": "Primary sources listed by the original author",
     "files": "Reproduce and inspect",
@@ -110,6 +111,12 @@
         "note": "Graduates generally entered their programmes years earlier. These numbers cannot be attributed solely to decisions made in the graduation year."
       },
       {
+        "id": "spatial",
+        "nav": "Across Brazil",
+        "title": "Where postgraduate education happens",
+        "description": "Compare all 27 states and five regions. Colours show each per-capita rate relative to the national average in the selected year."
+      },
+      {
         "id": "methods",
         "nav": "Sources & methods",
         "title": "Follow the numbers back to their source."
@@ -153,14 +160,14 @@
     "end": "Último ano",
     "peak": "Máximo nesta série",
     "selected": "Ano selecionado",
-    "csv": "Baixar todos os dados (CSV)",
-    "json": "Baixar dados (JSON)",
+    "csv": "Séries temporais (CSV)",
+    "json": "Séries temporais (JSON)",
     "provenance": "Proveniência dos dados",
-    "overviewText": "O que mudou no financiamento federal de ciência e no tamanho da pós-graduação? Percorra oito cartões, consulte cada valor anual e baixe os dados usados nos gráficos.",
+    "overviewText": "O que mudou no financiamento federal de ciência e no tamanho da pós-graduação? Percorra nove cartões, consulte cada valor anual e baixe os dados usados nos gráficos.",
     "overviewNote": "O investimento e a participação no PIB terminam em 2023. A educação e as bolsas no exterior terminam em 2024. São observações datadas, não indicadores em tempo real nem estimativas do impacto de governos.",
     "statLabels": [
       "cartões",
-      "recortes",
+      "gráficos + mapa",
       "idiomas"
     ],
     "methodsIntro": "Uma adaptação rastreável de uma base publicada. Os números mantêm a precisão original; os rótulos dos gráficos são arredondados para facilitar a leitura.",
@@ -168,8 +175,9 @@
       "Fonte: produto de ciência e pós-graduação publicado por Alexandre Cajazeira, baseado nos indicadores do MCTI e na correção pelo IPCA.",
       "Selecionamos seis conjuntos nacionais e recalculamos os totais do investimento. A cobertura anual, a integridade numérica e os valores exportados são conferidos contra a cópia datada da base publicada.",
       "Os arquivos originais dos órgãos não foram baixados novamente nem auditados de forma independente nesta adaptação. A base publicada, o código de extração, os checksums e os links das fontes permitem reproduzir essa etapa.",
-      "Alterações: narrativa bilíngue em oito cartões, nova interface e novos gráficos, apenas séries nacionais. Sem mapas estaduais ou comparações causais entre governos.",
-      "As contagens descrevem populações diferentes: programas não são cursos; matrículas são estoques ao fim do ano; títulos concedidos são fluxos anuais. Bolsistas no exterior não representam o valor financeiro das bolsas."
+      "Alterações: nove cartões bilíngues, séries nacionais e um mapa com quatro indicadores por UF e região. Sem comparações causais entre governos.",
+      "As contagens descrevem populações diferentes: programas não são cursos; matrículas são estoques ao fim do ano; títulos concedidos são fluxos anuais. Bolsistas no exterior não representam o valor financeiro das bolsas.",
+      "Mapa: taxas recalculadas com o Censo 2022 fixo em todos os anos; titulados por 100 mil, bolsas por 100 mil e programas por milhão. A correção de Amazonas/Amapá feita pelo autor original foi preservada. As somas regionais e taxas arredondadas foram conferidas."
     ],
     "primary": "Fontes primárias indicadas pelo autor original",
     "files": "Reproduzir e consultar",
@@ -225,6 +233,12 @@
         "title": "A titulação reflete vários anos de formação.",
         "description": "Mestres e doutores titulados a cada ano, incluindo os programas acadêmicos e profissionais.",
         "note": "Quem se titula geralmente ingressou anos antes. Os números não podem ser atribuídos apenas às decisões tomadas no ano da conclusão."
+      },
+      {
+        "id": "spatial",
+        "nav": "No território",
+        "title": "Onde a pós-graduação acontece",
+        "description": "Compare as 27 UFs e as cinco regiões. As cores mostram a taxa por habitante em relação à média nacional do ano selecionado."
       },
       {
         "id": "methods",

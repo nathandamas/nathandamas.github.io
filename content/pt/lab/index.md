@@ -10,4 +10,4 @@ Explore narrativas interativas de pesquisa, seus métodos e bases para download.
 
 [Abrir o laboratório](/laboratorio/?lang=pt)
 
-[Ciência e pós-graduação no Brasil — oito cartões](/laboratorio/ciencia-e-pos-graduacao/?lang=pt)
+[Ciência e pós-graduação no Brasil — nove cartões](/laboratorio/ciencia-e-pos-graduacao/?lang=pt)

@@ -10,9 +10,10 @@
   "data_license": "CC-BY-4.0",
   "data_license_url": "https://creativecommons.org/licenses/by/4.0/",
   "changes": [
-    "Selection of six national time series; state-level maps and government comparisons excluded.",
+    "Six national time series plus four spatial indicators at state and region levels; government comparisons excluded.",
     "New bilingual narrative and interface; numerical values preserved.",
-    "Investment totals recalculated and checked against the published totals."
+    "Investment totals recalculated and checked against the published totals.",
+    "Spatial integer counts extracted from published labels; full-precision rates recomputed with fixed 2022 Census denominators. Source AM/AP graduate correction retained; no missing years imputed. Geometry copied from the same pinned publication."
   ],
   "primary_sources": [
     {
@@ -46,7 +47,224 @@
           "sha256": "72eff4441560"
         }
       ]
+    },
+    {
+      "id": "capes.bolsas_ies",
+      "label": "CAPES · Bolsas / Scholarships",
+      "institution": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior — dados abertos (CKAN)",
+      "url": "https://dadosabertos.capes.gov.br/",
+      "files": [
+        {
+          "arquivo": "br-capes-concessao-bolsas-ies-2022-2023-03-01.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "d651a90a841f"
+        },
+        {
+          "arquivo": "br-capes-concessao-bolsas-ies-2023-2025-06-01.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "e037efefbf8d"
+        },
+        {
+          "arquivo": "br-capes-concessao-bolsas-ies-2024-2025-06-01.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "519dc1c85bcb"
+        },
+        {
+          "arquivo": "br-capes-concessao-bolsas-ies-2025-2026-04-01.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "91d51cd5aad6"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2010.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "da07eea04816"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2011.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "87c2182d7735"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2012.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "21ec08c52737"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2013.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "83ca3df47aff"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2014.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "b75f62fbfe1f"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2015.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "8c19781cf399"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2016.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "7f9b9d3e46c2"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2017.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "09451a45ae2c"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2018.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "5c5e826b8dab"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2019.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "65fd61118a58"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2020.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "79c45c34cb8d"
+        },
+        {
+          "arquivo": "dados_concessao_dpb_2021.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "7eb81f80a281"
+        }
+      ]
+    },
+    {
+      "id": "capes.programas_pos",
+      "label": "CAPES · Programas / Programmes",
+      "institution": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior — dados abertos (CKAN)",
+      "url": "https://dadosabertos.capes.gov.br/",
+      "files": [
+        {
+          "arquivo": "br-capes-colsucup-prog-2013a2016-2020-06-12_2013.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "9e08f881de04"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2013a2016-2020-06-12_2014.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "11248da5f79f"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2013a2016-2020-06-12_2015.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "460426bfa7ff"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2013a2016-2020-06-12_2016.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "6e5ddf1d7268"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2017-2021-11-10.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "89bd09bb7c23"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2018-2021-11-10.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "387ca4abe11c"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2019-2021-11-10.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "e14e49250c61"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2020-2021-11-10.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "ded65ce6db55"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2021-2025-03-31.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "cdc151263f4d"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2022-2025-03-31.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "53b3bac35ac0"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2023-2025-03-31.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "75ce66ac4290"
+        },
+        {
+          "arquivo": "br-capes-colsucup-prog-2024-2025-12-01.csv",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-14",
+          "sha256": "9402aec8b2bf"
+        }
+      ]
+    },
+    {
+      "id": "ibge.censo2022_municipios",
+      "label": "IBGE · Censo 2022 / Census 2022",
+      "institution": "Instituto Brasileiro de Geografia e Estatística",
+      "url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022/inicial",
+      "files": [
+        {
+          "arquivo": "2026-10-07.json",
+          "gerado_na_fonte": null,
+          "baixado_em": "2026-10-07",
+          "sha256": "b35a79a21cca"
+        }
+      ]
+    },
+    {
+      "id": "ibge.malha_ufs_2022",
+      "label": "IBGE · Malha 2022 / Boundaries 2022",
+      "institution": "Instituto Brasileiro de Geografia e Estatística",
+      "url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2022/Brasil/BR/",
+      "files": [
+        {
+          "arquivo": "BR_UF_2022.zip",
+          "gerado_na_fonte": "Tue, 28 Mar 2023 12:50:59 GMT",
+          "baixado_em": "2026-10-03",
+          "sha256": "282ec7f0f0be"
+        }
+      ]
     }
   ],
-  "verification_scope": "Parity with the frozen published dataset, year coverage, numeric integrity and investment totals. The original agency files have not been independently downloaded or audited in this adaptation."
+  "verification_scope": "Parity with the frozen published dataset, year coverage, numeric integrity and investment totals. The original agency files have not been independently downloaded or audited in this adaptation. Spatial checks cover geometry identifiers, 27 states/five regions, regional sums, rounded published rates and CSV/JSON parity.",
+  "spatial_checksums": {
+    "source-spatial.json": "5bb69623cc32e54db0a954b2894bd0a52ab4e69344b60afb76e29f9d83c36a1b",
+    "brazil.geojson": "e51b3583e39f19e573c03e2ea926a378b054fc42e1cc6fe1f24895174ea1f0ff"
+  },
+  "spatial_extraction": "base.textos.c4_2.v: integer counts from linhas[1], population from tamanho; published rounded rates retained for validation; base.textos.malhas for geometry."
 }
