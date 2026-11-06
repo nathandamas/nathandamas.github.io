@@ -26,6 +26,7 @@ project:
             - file: content/en/projects/nlp-llm-geospatial.md
         - file: content/en/blog/index.md
           children:
+            - file: content/en/blog/2026-11-science-postgraduate-education-across-brazil.md
             - file: content/en/blog/2026-04-first-post.md
             - file: content/en/blog/2026-04-openstreetmap-and-data-quality.md
         - file: content/en/cv/index.md
@@ -45,8 +46,8 @@ project:
             - file: content/pt/projects/nlp-llm-geospatial.md
         - file: content/pt/blog/index.md
           children:
+            - file: content/pt/blog/2026-11-ciencia-pos-graduacao-no-territorio.md
             - file: content/pt/blog/2026-04-primeiro-post.md
-            - file: content/pt/blog/2026-04-openstreetmap-e-qualidade.md
         - file: content/pt/cv/index.md
         - file: content/pt/contact/index.md
 

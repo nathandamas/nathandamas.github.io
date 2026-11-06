@@ -120,6 +120,14 @@ jobs:
                                'laboratorio/ciencia-e-pos-graduacao/data/series.csv'):
                       with urlopen(urljoin(base, path) + '?deploy=' + os.environ['GITHUB_SHA'], timeout=20) as response:
                           assert response.status == 200 and response.read(), 'Missing laboratory resource: ' + path
+                  blog_posts = {
+                      'en/blog/2026-11-science-postgraduate-education-across-brazil/': 'Science and postgraduate education across Brazil',
+                      'pt/blog/2026-11-ciencia-pos-graduacao-no-territorio/': 'Ciência e pós-graduação no território',
+                  }
+                  for path, title in blog_posts.items():
+                      with urlopen(urljoin(base, path) + '?deploy=' + os.environ['GITHUB_SHA'], timeout=20) as response:
+                          post = response.read().decode('utf-8')
+                      assert title in post and 'cartao=spatial' in post, 'Blog post or map link missing: ' + path
                   with urlopen(urljoin(base, 'laboratorio/ciencia-e-pos-graduacao/content.json'), timeout=20) as response:
                       story = json.load(response)
                   assert len(story['en']['cards']) == len(story['pt']['cards']) == 9
